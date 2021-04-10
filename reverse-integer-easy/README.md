@@ -1,5 +1,5 @@
 ---
-title: 'Two Sum'
+title: 'Reverse Integer'
 disqus: hackmd
 ---
 
@@ -16,6 +16,13 @@ Example 1:
 ```go=
 Input: x = 123
 Output: 321
+```
+Example 2:
+---
+
+```go=
+Input: x = -213
+Output: -312
 ```
 
 Rules:

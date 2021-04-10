@@ -1,4 +1,4 @@
-package main
+package Q2
 
 import (
 	"log"
@@ -6,10 +6,6 @@ import (
 	"strconv"
 	"strings"
 )
-
-func main() {
-
-}
 
 func reverse(x int) int {
 	var res string
