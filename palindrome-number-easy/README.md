@@ -12,15 +12,13 @@ An integer is a palindrome when it reads the same backward as forward. For examp
 
 Example 1:
 ---
-
 ```go=
 Input: x = 121
 Output: true
 ```
 
-Example 1:
+Example 2:
 ---
-
 ```go=
 Input: x = -121
 Output: false
