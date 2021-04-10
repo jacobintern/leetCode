@@ -1,8 +1,4 @@
-package main
-
-func main() {
-
-}
+package Q1
 
 // solution1
 func twoSum(nums []int, target int) []int {
