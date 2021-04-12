@@ -1,5 +1,5 @@
 ---
-title: 'Palindrome Number'
+title: 'Palindrome Number(easy)'
 disqus: hackmd
 ---
 

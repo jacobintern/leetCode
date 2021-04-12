@@ -6,16 +6,16 @@ import (
 )
 
 type parameters struct {
-	nums int
+	num int
 }
 
 func Test1(t *testing.T) {
 	params := parameters{
-		nums: -213,
+		num: -213,
 	}
 	expected := -312
 
-	if reflect.DeepEqual(expected, reverse(params.nums)) {
+	if reflect.DeepEqual(expected, reverse(params.num)) {
 		t.Log("sucess")
 	} else {
 		t.Error("fail")

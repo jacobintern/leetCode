@@ -1,5 +1,5 @@
 ---
-title: 'Reverse Integer'
+title: 'Reverse Integer(easy)'
 disqus: hackmd
 ---
 

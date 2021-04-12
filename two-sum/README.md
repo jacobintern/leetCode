@@ -1,5 +1,5 @@
 ---
-title: 'Two Sum'
+title: 'Two Sum(easy)'
 disqus: hackmd
 ---
 
