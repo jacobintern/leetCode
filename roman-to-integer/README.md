@@ -1,5 +1,5 @@
 ---
-title: 'Reverse Integer(easy)'
+title: 'Reoman To Integer(easy)'
 disqus: hackmd
 ---
 

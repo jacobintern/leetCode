@@ -1,5 +1,5 @@
 ---
-title: 'Palindrome Number(easy)'
+title: 'Longest Common(easy)'
 disqus: hackmd
 ---
 

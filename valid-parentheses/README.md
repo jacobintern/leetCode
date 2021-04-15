@@ -1,5 +1,5 @@
 ---
-title: 'Palindrome Number(easy)'
+title: 'Valid Parentheses(easy)'
 disqus: hackmd
 ---
 

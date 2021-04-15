@@ -1,27 +1,33 @@
 ---
-title: 'Palindrome Number(easy)'
+title: 'Maximum Subarray(easy)'
 disqus: hackmd
 ---
 
 ## Beginners Guide
 
-Given an integer x, return true if x is palindrome integer.
-
-An integer is a palindrome when it reads the same backward as forward. For example, 121 is palindrome while 123 is not.
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
 
 Example 1:
 ---
 ```go=
-Input: x = 121
-Output: true
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: [4,-1,2,1] has the largest sum = 6.
 ```
 
 Example 2:
 ---
 ```go=
-Input: x = -121
-Output: false
+Input: nums = [1]
+Output: 1
+```
+
+Example 3:
+---
+```go=
+Input: nums = [5,4,-1,7,8]
+Output: 23
 ```
 
 Rules:
