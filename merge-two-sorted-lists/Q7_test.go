@@ -15,7 +15,7 @@ func Test1(t *testing.T) {
 		arr1: ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 4}}},
 		arr2: ListNode{Val: 1, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4}}},
 	}
-	expected := true
+	expected := ListNode{Val: 1, Next: &ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 4}}}}}}
 
 	if reflect.DeepEqual(expected, mergeTwoLists(&params.arr1, &params.arr2)) {
 		t.Log("sucess")

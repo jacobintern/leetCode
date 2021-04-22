@@ -1,4 +1,4 @@
-package Q7
+package main
 
 type ListNode struct {
 	Val  int
@@ -6,6 +6,19 @@ type ListNode struct {
 }
 
 var arr []int
+
+type parameters struct {
+	arr1 ListNode
+	arr2 ListNode
+}
+
+func main() {
+	params := parameters{
+		arr1: ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 4}}},
+		arr2: ListNode{Val: 1, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4}}},
+	}
+	mergeTwoLists(&params.arr1, &params.arr2)
+}
 
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil && l2 == nil {

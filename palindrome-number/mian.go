@@ -24,10 +24,8 @@ func IsPalindrome2(x int) bool {
 	s := strings.Split(vStr, "")
 	var newStr string
 
-	i := 0
-	for i < len(s) {
+	for i := 0; i < len(s); i++ {
 		newStr += s[len(s)-1-i]
-		i++
 	}
 	return vStr == newStr
 }

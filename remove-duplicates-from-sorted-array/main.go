@@ -1,7 +1,5 @@
 package Q8
 
-import "fmt"
-
 func removeDuplicates(nums []int) int {
 	var newArr []int
 	for _, v := range nums {
@@ -23,15 +21,12 @@ func contains(nums []int, num int) bool {
 }
 
 func removeDuplicates2(nums []int) int {
-	length := len(nums)
-
 	j := 0
-	for i := 0; i < length; i++ {
+	for i, k := 0, len(nums); i < k; i++ {
 		if i == 0 || nums[i] != nums[i-1] {
 			nums[j] = nums[i]
 			j++
 		}
 	}
-	fmt.Println(nums)
 	return j
 }
