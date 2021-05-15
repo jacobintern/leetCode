@@ -1,71 +1,41 @@
 package main
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-var arr []int
-
-type parameters struct {
-	arr1 ListNode
-	arr2 ListNode
-}
+import (
+	"fmt"
+)
 
 func main() {
-	params := parameters{
-		arr1: ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 4}}},
-		arr2: ListNode{Val: 1, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4}}},
-	}
-	mergeTwoLists(&params.arr1, &params.arr2)
+	a := []int{7, 1, 5, 3, 6, 4}
+	fmt.Println(maxProfit(a))
 }
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
-	if l1 == nil && l2 == nil {
-		return nil
-	}
-	if l1 == nil {
-		return l2
-	}
-	if l2 == nil {
-		return l1
-	}
-	resArr := OutputArray(l1, l2)
-
-	r := &ListNode{}
-	tmp := r
-	for i, v := range resArr {
-		if i == 0 {
-			r.Val = v
-		} else {
-			tmp.Next = &ListNode{Val: v}
-			tmp = tmp.Next
+func maxProfit(prices []int) int {
+	r := 0
+	for i, v := range prices {
+		for j := i; j < len(prices); j++ {
+			if i != j && j > i {
+				tmp := prices[j] - v
+				if r < tmp {
+					r = tmp
+				}
+			}
 		}
 	}
-	arr = nil
 	return r
 }
 
-func OutputArray(l1 *ListNode, l2 *ListNode) []int {
-	if l1 == nil && l2 == nil {
-		return nil
+func maxProfit2(prices []int) int {
+	if len(prices) == 0 {
+		return 0
 	}
-	if l2 == nil {
-		arr = append(arr, l1.Val)
-		l1 = l1.Next
-	} else if l1 == nil {
-		arr = append(arr, l2.Val)
-		l2 = l2.Next
-	} else if l1.Val < l2.Val {
-		arr = append(arr, l1.Val)
-		l1 = l1.Next
-	} else if l1.Val > l2.Val {
-		arr = append(arr, l2.Val)
-		l2 = l2.Next
-	} else {
-		arr = append(arr, l1.Val)
-		l1 = l1.Next
+	maxProfit := 0
+	minPrice := prices[0]
+	for i := range prices {
+		if prices[i] < minPrice {
+			minPrice = prices[i]
+		} else if prices[i]-minPrice > maxProfit {
+			maxProfit = prices[i] - minPrice
+		}
 	}
-	OutputArray(l1, l2)
-	return arr
+	return maxProfit
 }
