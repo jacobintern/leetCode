@@ -6,18 +6,18 @@ import (
 )
 
 type parameters struct {
-	arr1 ListNode
-	arr2 ListNode
+	node1 ListNode
+	node2 ListNode
 }
 
 func Test1(t *testing.T) {
 	params := parameters{
-		arr1: ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 4}}},
-		arr2: ListNode{Val: 1, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4}}},
+		node1: ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 4}}},
+		node2: ListNode{Val: 1, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4}}},
 	}
 	expected := ListNode{Val: 1, Next: &ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 4}}}}}}
 
-	if reflect.DeepEqual(expected, mergeTwoLists(&params.arr1, &params.arr2)) {
+	if reflect.DeepEqual(expected, mergeTwoLists(&params.node1, &params.node2)) {
 		t.Log("sucess")
 	} else {
 		t.Error("fail")
