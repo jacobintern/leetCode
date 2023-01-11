@@ -11,7 +11,11 @@ type parameters struct {
 
 func Test1(t *testing.T) {
 	params := parameters{
-		head: ListNode{Val: 1, Next: &ListNode{Val: 1, Next: &ListNode{Val: 2}}},
+		head: ListNode{Val: 1,
+			Next: &ListNode{Val: 1,
+				Next: &ListNode{Val: 2},
+			},
+		},
 	}
 	expected := &ListNode{Val: 1, Next: &ListNode{Val: 2}}
 
