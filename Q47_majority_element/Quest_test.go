@@ -26,7 +26,7 @@ func Test2(t *testing.T) {
 
 	params := parameters{arr: []int{2, 2, 1, 1, 1, 2, 2}}
 
-	expected := 3
+	expected := 2
 
 	if testResult := majorityElement(params.arr); reflect.DeepEqual(expected, testResult) {
 		t.Log("sucess")
