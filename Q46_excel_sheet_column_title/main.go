@@ -31,37 +31,23 @@ var list = map[int]string{
 
 func convertToTitle(columnNumber int) string {
 	res := ""
-	tmp := columnNumber
-	// 代表位置
-	for tmp > 26 {
-		v := tmp / 26
-
-		if v == 0 {
-			break
-		}
-
-		// 找出有幾個 26 就是那一個位數
-		if v > 26 {
-			res += list[v/26]
-		} else {
-			res += list[v]
-		}
-
-		tmp = ((v / 26) * 26) + v%26
-	}
-
-	b := columnNumber % 26
-	// 最後加上餘數
-	res += list[b]
-	return res
-}
-
-func convertToTitle2(columnNumber int) string {
-	rs := []byte{}
+	// 循環 1 + 26 直到不能算為止
+	// 原理：1 + 26 + 26^2 + 26^3 + 26^4 + .....，以此類推
+	// 當處理完 1 + 26 的時侯，取下一位數出來 26 + 26^2 然後除以 26 變成 1 + 26 再開始下一個循環的運算
 	for columnNumber > 0 {
+		// 減 1 後取餘數後取得目前位數的值
 		columnNumber--
-		rs = append([]byte{byte(columnNumber%26 + 65)}, rs...)
+		res += list[columnNumber%26+1]
+		// 除以 26 開始下一個循環
 		columnNumber /= 26
 	}
-	return string(rs)
+	return reverse(res)
+}
+
+func reverse(str string) string {
+	var res string
+	for i := len(str); i > 0; i-- {
+		res += string(str[i-1])
+	}
+	return res
 }
