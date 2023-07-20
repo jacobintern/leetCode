@@ -5,6 +5,4 @@
 
 * 須增加單元測試方便檢視
 
-can into problem   
-and use go test -v   
-test unit test  
+目標熟悉陣列＆字串＆字元＆數值處理
