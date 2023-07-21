@@ -27,3 +27,32 @@ func isIsomorphic(s string, t string) bool {
 
 	return true
 }
+
+func isIsomorphic2(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
+	sMap := make(map[byte]byte)
+	tMap := make(map[byte]byte)
+
+	for i := 0; i < len(s); i++ {
+		if val, ok := sMap[s[i]]; ok {
+			if val != t[i] {
+				return false
+			}
+		} else {
+			sMap[s[i]] = t[i]
+		}
+
+		if val, ok := tMap[t[i]]; ok {
+			if val != s[i] {
+				return false
+			}
+		} else {
+			tMap[t[i]] = s[i]
+		}
+	}
+
+	return true
+}
