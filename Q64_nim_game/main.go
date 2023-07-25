@@ -1,4 +1,4 @@
-package Q
+package Q64
 
 func canWinNim(n int) bool {
 	if n%4 == 0 {
