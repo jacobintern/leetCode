@@ -29,5 +29,4 @@ Explanation: We return false because 3.742 * 3.742 = 14 and 3.742 is not an inte
 
 Rules:
 ---
-* $something descript$
-* something descript.
+* $1 <= num <= 2^31 -1$
