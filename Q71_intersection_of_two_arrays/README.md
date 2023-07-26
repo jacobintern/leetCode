@@ -1,5 +1,5 @@
 ---
-title: 'Quest Name(Level)'
+title: 'Intersection of Two Arrays(Easy)'
 disqus: hackmd
 ---
 
