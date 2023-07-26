@@ -1,4 +1,4 @@
-package Q
+package Q73
 
 import (
 	"reflect"
@@ -6,16 +6,42 @@ import (
 )
 
 type parameters struct {
-	str string
+	num int
 }
 
 func Test1(t *testing.T) {
 
-	params := parameters{str: "abcabcbb"}
+	params := parameters{num: 10}
+	setTaget(6)
+	expected := 6
 
-	expected := 0
+	if testResult := guessNumber(params.num); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
 
-	if testResult := Quest(params.str); reflect.DeepEqual(expected, testResult) {
+func Test2(t *testing.T) {
+
+	params := parameters{num: 1}
+	setTaget(1)
+	expected := 1
+
+	if testResult := guessNumber(params.num); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
+
+func Test3(t *testing.T) {
+
+	params := parameters{num: 2}
+	setTaget(1)
+	expected := 1
+
+	if testResult := guessNumber(params.num); reflect.DeepEqual(expected, testResult) {
 		t.Log("sucess")
 	} else {
 		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
