@@ -74,3 +74,16 @@ func Test5(t *testing.T) {
 		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
 	}
 }
+
+func Test6(t *testing.T) {
+
+	params := parameters{str1: "6", str2: "501"}
+
+	expected := "507"
+
+	if testResult := addStrings(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
