@@ -1,10 +1,13 @@
 package Q87
 
-func repeatedSubstringPattern(s string) bool {
-	if len(s)%2 == 0 && s[:len(s)/2] == s[len(s)/2:] {
-		return true
-	}
+import "strings"
 
-	// need valid distinct result is one
+func repeatedSubstringPattern(s string) bool {
+	l := len(s)
+	for i := 1; i <= l/2; i++ {
+		if l%i == 0 && strings.Repeat(string(s[:i]), l/i) == s {
+			return true
+		}
+	}
 	return false
 }
