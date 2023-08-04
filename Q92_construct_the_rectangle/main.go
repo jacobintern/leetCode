@@ -1,14 +1,18 @@
 package Q92
 
-func constructRectangle(area int) []int {
-	res, i := []int{}, 2
-	m := make(map[int]int)
+import (
+	"math"
+)
 
-	for area > 0 {
-		if area%2 == 0 {
-			m[i]++
-			area /= i
-		}
+func constructRectangle(area int) []int {
+	l := int(math.Sqrt(float64(area)))
+	for area%l != 0 {
+		l++
 	}
-	return res
+
+	if w := area / l; l < w {
+		return []int{w, l}
+	}
+
+	return []int{l, area / l}
 }
