@@ -1,5 +1,5 @@
 ---
-title: 'Quest Name(Level)'
+title: 'Perfect Number(Easy)'
 disqus: hackmd
 ---
 

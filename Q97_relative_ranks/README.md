@@ -1,5 +1,5 @@
 ---
-title: 'Quest Name(Level)'
+title: 'Relative Ranks(Easy)'
 disqus: hackmd
 ---
 
