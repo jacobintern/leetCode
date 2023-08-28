@@ -6,10 +6,10 @@ type Node struct {
 }
 
 func maxDepth(root *Node) int {
-	if root.Children == nil {
+	if root == nil || root.Children == nil {
 		return 0
 	}
-	max := 1
+	max := 0
 	for _, n := range root.Children {
 		tmp := maxDepth(n)
 		if tmp > max {
