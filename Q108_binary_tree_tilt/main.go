@@ -1,9 +1,5 @@
 package Q108
 
-import (
-	"math"
-)
-
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -11,13 +7,30 @@ type TreeNode struct {
 }
 
 func findTilt(root *TreeNode) int {
-	empty := TreeNode{}
-	if root == &empty {
+	if root == nil {
+		return 0
+	}
+	sum := 0
+	getTreeSum(root, &sum)
+	return sum
+}
+
+func getTreeSum(root *TreeNode, sum *int) int {
+	if root == nil {
 		return 0
 	}
 
-	l := findTilt(root.Left)
-	r := findTilt(root.Right)
+	l := getTreeSum(root.Left, sum)
+	r := getTreeSum(root.Right, sum)
 
-	return int(math.Abs(float64(l - r)))
+	*sum += abs(l - r)
+
+	return l + r + root.Val
+}
+
+func abs(num int) int {
+	if num > 0 {
+		return num
+	}
+	return -num
 }

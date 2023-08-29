@@ -12,8 +12,8 @@ type parameters struct {
 func Test1(t *testing.T) {
 
 	params := parameters{tree: TreeNode{Val: 1,
-		Left:  &TreeNode{Val: 2, Left: &TreeNode{}, Right: &TreeNode{}},
-		Right: &TreeNode{Val: 3, Left: &TreeNode{}, Right: &TreeNode{}},
+		Left:  &TreeNode{Val: 2, Left: nil, Right: nil},
+		Right: &TreeNode{Val: 3, Left: nil, Right: nil},
 	}}
 
 	expected := 1
