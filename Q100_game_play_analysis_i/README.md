@@ -1,50 +1,36 @@
 ---
-title: 'Game Play Analysis I(Easy)'
+title: 'Find Mode in Binary Search Tree(Easy)'
 disqus: hackmd
 ---
 
 ## Beginners Guide
 
-Table: `Activity`
+Given the root of a binary search tree (BST) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it.
 
-```
-+--------------+---------+
-| Column Name  | Type    |
-+--------------+---------+
-| player_id    | int     |
-| device_id    | int     |
-| event_date   | date    |
-| games_played | int     |
-+--------------+---------+
-(player_id, event_date) is the primary key (combination of columns with unique values) of this table.
-This table shows the activity of players of some games.
-Each row is a record of a player who logged in and played a number of games (possibly 0) before logging out on someday using some device.
-```
+If the tree has more than one mode, return them in any order.
+
+Assume a BST is defined as follows:
+
+* The left subtree of a node contains only nodes with keys less than or equal to the node's key.
+* The right subtree of a node contains only nodes with keys greater than or equal to the node's key.
+* Both the left and right subtrees must also be binary search trees.
+
 
 Example 1:
 ---
 ```go=
-Input: 
-Activity table:
-+-----------+-----------+------------+--------------+
-| player_id | device_id | event_date | games_played |
-+-----------+-----------+------------+--------------+
-| 1         | 2         | 2016-03-01 | 5            |
-| 1         | 2         | 2016-05-02 | 6            |
-| 2         | 3         | 2017-06-25 | 1            |
-| 3         | 1         | 2016-03-02 | 0            |
-| 3         | 4         | 2018-07-03 | 5            |
-+-----------+-----------+------------+--------------+
-Output: 
-+-----------+-------------+
-| player_id | first_login |
-+-----------+-------------+
-| 1         | 2016-03-01  |
-| 2         | 2017-06-25  |
-| 3         | 2016-03-02  |
-+-----------+-------------+
+Input: root = [1,null,2,2]
+Output: [2]
+```
+
+Example 2:
+---
+```go=
+Input: root = [0]
+Output: [0]
 ```
 
 Rules:
 ---
---
+* $The number of nodes in the tree is in the range [1, 10^4].$
+* $-10^5 <= Node.val <= 10^5$
