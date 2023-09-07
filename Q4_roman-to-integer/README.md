@@ -1,7 +1,4 @@
----
-title: 'Reoman To Integer(easy)'
-disqus: hackmd
----
+# Reoman To Integer(easy)
 
 ## Beginners Guide
 

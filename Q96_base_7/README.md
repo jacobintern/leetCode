@@ -1,7 +1,4 @@
----
-title: 'Base 7(Easy)'
-disqus: hackmd
----
+# Base 7(Easy)
 
 ## Beginners Guide
 

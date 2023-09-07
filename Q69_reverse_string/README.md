@@ -1,7 +1,4 @@
----
-title: 'Reverse String(Easy)'
-disqus: hackmd
----
+# Reverse String(Easy)
 
 ## Beginners Guide
 

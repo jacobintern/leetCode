@@ -1,7 +1,4 @@
----
-title: 'Excel Sheet Column Title(Easy)'
-disqus: hackmd
----
+# Excel Sheet Column Title(Easy)
 
 ## Beginners Guide
 

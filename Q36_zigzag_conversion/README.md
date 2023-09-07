@@ -1,7 +1,4 @@
----
-title: 'Zigzag Conversion(Medium)'
-disqus: hackmd
----
+# Zigzag Conversion(Medium)
 
 ## Beginners Guide
 

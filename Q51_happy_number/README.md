@@ -1,7 +1,4 @@
----
-title: 'Happy Number(Easy)'
-disqus: hackmd
----
+# Happy Number(Easy)
 
 ## Beginners Guide
 

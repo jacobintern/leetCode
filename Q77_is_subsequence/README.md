@@ -1,7 +1,4 @@
----
-title: 'Is Subquence(Easy)'
-disqus: hackmd
----
+# Is Subquence(Easy)
 
 ## Beginners Guide
 

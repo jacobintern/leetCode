@@ -1,7 +1,4 @@
----
-title: 'Pascal's Triangle II(easy)'
-disqus: hackmd
----
+# Pascal's Triangle II(easy)
 
 ## Beginners Guide
 

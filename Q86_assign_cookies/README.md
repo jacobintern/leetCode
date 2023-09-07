@@ -1,7 +1,4 @@
----
-title: 'Assign Cookies(Easy)'
-disqus: hackmd
----
+# Assign Cookies(Easy)
 
 ## Beginners Guide
 

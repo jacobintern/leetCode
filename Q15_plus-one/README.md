@@ -1,7 +1,4 @@
----
-title: 'Plus One(easy)'
-disqus: hackmd
----
+# Plus One(easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Symmetric Tree(easy)'
-disqus: hackmd
----
+# Symmetric Tree(easy)
 
 ## Beginners Guide
 

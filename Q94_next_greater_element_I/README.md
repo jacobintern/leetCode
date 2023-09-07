@@ -1,7 +1,4 @@
----
-title: 'Next Greater Element I(Easy)'
-disqus: hackmd
----
+# Next Greater Element I(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Contains Duplicate(Easy)'
-disqus: hackmd
----
+# Contains Duplicate(Easy)
 
 ## Beginners Guide
 

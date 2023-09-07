@@ -1,7 +1,4 @@
----
-title: 'Valid Parentheses(easy)'
-disqus: hackmd
----
+# Valid Parentheses(easy)
 
 ## Beginners Guide
 

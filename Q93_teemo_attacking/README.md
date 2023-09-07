@@ -1,7 +1,4 @@
----
-title: 'Teemo Attacking(Easy)'
-disqus: hackmd
----
+# Teemo Attacking(Easy)
 
 ## Beginners Guide
 

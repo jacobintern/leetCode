@@ -1,7 +1,4 @@
----
-title: 'First Bad Version(Easy)'
-disqus: hackmd
----
+# First Bad Version(Easy)
 
 ## Beginners Guide
 

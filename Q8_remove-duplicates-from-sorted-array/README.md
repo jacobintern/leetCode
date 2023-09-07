@@ -1,7 +1,4 @@
----
-title: 'Remove Duplicates from Sorted Array(easy)'
-disqus: hackmd
----
+# Remove Duplicates from Sorted Array(easy)
 
 ## Beginners Guide
 

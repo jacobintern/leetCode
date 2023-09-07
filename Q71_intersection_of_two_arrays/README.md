@@ -1,7 +1,4 @@
----
-title: 'Intersection of Two Arrays(Easy)'
-disqus: hackmd
----
+# Intersection of Two Arrays(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: '3Sum(Medium)'
-disqus: hackmd
----
+# 3Sum(Medium)
 
 ## Beginners Guide
 

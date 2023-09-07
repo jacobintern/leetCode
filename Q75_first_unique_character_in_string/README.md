@@ -1,7 +1,4 @@
----
-title: 'First Unique Character in a String(Easy)'
-disqus: hackmd
----
+# First Unique Character in a String(Easy)
 
 ## Beginners Guide
 

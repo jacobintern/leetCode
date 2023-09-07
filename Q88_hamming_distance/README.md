@@ -1,7 +1,4 @@
----
-title: '461. Hamming Distance(Easy)'
-disqus: hackmd
----
+# 461. Hamming Distance(Easy)
 
 ## Beginners Guide
 

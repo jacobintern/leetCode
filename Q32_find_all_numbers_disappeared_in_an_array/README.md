@@ -1,7 +1,4 @@
----
-title: 'Find All Numbers Disappeared in an Array(easy)'
-disqus: hackmd
----
+# Find All Numbers Disappeared in an Array(easy)
 
 ## Beginners Guide
 

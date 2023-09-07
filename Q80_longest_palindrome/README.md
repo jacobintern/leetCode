@@ -1,7 +1,4 @@
----
-title: ' Longest Palindrome(Easy)'
-disqus: hackmd
----
+#  Longest Palindrome(Easy)
 
 ## Beginners Guide
 

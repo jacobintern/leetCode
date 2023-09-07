@@ -1,7 +1,4 @@
----
-title: 'Student Attendance Record I(Easy)'
-disqus: hackmd
----
+# Student Attendance Record I(Easy)
 
 ## Beginners Guide
 

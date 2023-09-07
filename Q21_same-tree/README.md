@@ -1,7 +1,4 @@
----
-title: 'Same Tree(easy)'
-disqus: hackmd
----
+# Same Tree(easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Path Sum(easy)'
-disqus: hackmd
----
+# Path Sum(easy)
 
 ## Beginners Guide
 

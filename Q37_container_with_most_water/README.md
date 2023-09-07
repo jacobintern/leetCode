@@ -1,7 +1,4 @@
----
-title: 'Container With Most Water(Medium)'
-disqus: hackmd
----
+# Container With Most Water(Medium)
 
 ## Beginners Guide
 

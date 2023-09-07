@@ -1,7 +1,4 @@
----
-title: 'Repeated Substring Pattern(Easy)'
-disqus: hackmd
----
+# Repeated Substring Pattern(Easy)
 
 ## Beginners Guide
 

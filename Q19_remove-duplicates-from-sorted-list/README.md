@@ -1,7 +1,4 @@
----
-title: 'Remove Duplicates from Sorted List(easy)'
-disqus: hackmd
----
+# Remove Duplicates from Sorted List(easy)
 
 ## Beginners Guide
 

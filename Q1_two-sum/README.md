@@ -1,7 +1,4 @@
----
-title: 'Two Sum(easy)'
-disqus: hackmd
----
+# Two Sum(easy)
 
 ## Beginners Guide
 

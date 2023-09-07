@@ -1,7 +1,4 @@
----
-title: 'Valid Anagram(Easy)'
-disqus: hackmd
----
+# Valid Anagram(Easy)
 
 ## Beginners Guide
 

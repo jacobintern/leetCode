@@ -1,7 +1,4 @@
----
-title: 'Longest Substring Without Repeating Characters(Medium)'
-disqus: hackmd
----
+# Longest Substring Without Repeating Characters(Medium)
 
 ## Beginners Guide
 

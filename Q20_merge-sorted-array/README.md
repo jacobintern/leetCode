@@ -1,7 +1,4 @@
----
-title: 'Merge Sorted Array(easy)'
-disqus: hackmd
----
+# Merge Sorted Array(easy)
 
 ## Beginners Guide
 

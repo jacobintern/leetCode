@@ -1,7 +1,4 @@
----
-title: 'Island Perimeter(Easy)'
-disqus: hackmd
----
+# Island Perimeter(Easy)
 
 ## Beginners Guide
 

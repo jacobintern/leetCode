@@ -1,7 +1,4 @@
----
-title: 'Power of Four(Easy)'
-disqus: hackmd
----
+# Power of Four(Easy)
 
 ## Beginners Guide
 

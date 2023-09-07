@@ -1,7 +1,4 @@
----
-title: 'Reverse Vowels of a String(Easy)'
-disqus: hackmd
----
+# Reverse Vowels of a String(Easy)
 
 ## Beginners Guide
 

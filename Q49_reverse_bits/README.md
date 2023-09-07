@@ -1,7 +1,4 @@
----
-title: ' Reverse Bits(Easy)'
-disqus: hackmd
----
+#  Reverse Bits(Easy)
 
 ## Beginners Guide
 

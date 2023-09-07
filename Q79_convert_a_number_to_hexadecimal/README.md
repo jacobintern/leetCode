@@ -1,7 +1,4 @@
----
-title: 'Convert a Number to Hexadecimal(Easy)'
-disqus: hackmd
----
+# Convert a Number to Hexadecimal(Easy)
 
 ## Beginners Guide
 

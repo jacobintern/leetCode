@@ -1,7 +1,4 @@
----
-title: 'Third Maximum Number(Easy)'
-disqus: hackmd
----
+# Third Maximum Number(Easy)
 
 ## Beginners Guide
 

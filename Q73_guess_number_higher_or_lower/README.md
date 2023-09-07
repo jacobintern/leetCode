@@ -1,7 +1,4 @@
----
-title: 'Guess Number Higher or Lower(Easy)'
-disqus: hackmd
----
+# Guess Number Higher or Lower(Easy)
 
 ## Beginners Guide
 

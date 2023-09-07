@@ -1,7 +1,4 @@
----
-title: 'Trapping Rain Water(Medium)'
-disqus: hackmd
----
+# Trapping Rain Water(Medium)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Number of Segments in a String(Easy)'
-disqus: hackmd
----
+# Number of Segments in a String(Easy)
 
 ## Beginners Guide
 

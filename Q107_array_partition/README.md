@@ -1,7 +1,4 @@
----
-title: 'Array Partition(Easy)'
-disqus: hackmd
----
+# Array Partition(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Implement strStr()(easy)'
-disqus: hackmd
----
+# Implement strStr()(easy)
 
 ## Beginners Guide
 

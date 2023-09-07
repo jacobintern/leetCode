@@ -1,7 +1,4 @@
----
-title: 'Palindrome Number(medium)'
-disqus: hackmd
----
+# Palindrome Number(medium)
 
 ## Beginners Guide
 

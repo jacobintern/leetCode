@@ -1,7 +1,4 @@
----
-title: 'Remove Element(easy)'
-disqus: hackmd
----
+# Remove Element(easy)
 
 ## Beginners Guide
 

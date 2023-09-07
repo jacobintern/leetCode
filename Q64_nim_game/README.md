@@ -1,7 +1,4 @@
----
-title: 'Nim Game(Easy)'
-disqus: hackmd
----
+# Nim Game(Easy)
 
 ## Beginners Guide
 

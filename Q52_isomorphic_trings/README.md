@@ -1,7 +1,4 @@
----
-title: 'Isomorphic Strings(Easy)'
-disqus: hackmd
----
+# Isomorphic Strings(Easy)
 
 ## Beginners Guide
 

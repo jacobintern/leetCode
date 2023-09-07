@@ -1,7 +1,4 @@
----
-title: 'Valid Perfect Square(Easy)'
-disqus: hackmd
----
+# Valid Perfect Square(Easy)
 
 ## Beginners Guide
 

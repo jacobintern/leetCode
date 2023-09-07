@@ -1,7 +1,4 @@
----
-title: 'Longest Common(easy)'
-disqus: hackmd
----
+# Longest Common(easy)
 
 ## Beginners Guide
 

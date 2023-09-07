@@ -1,7 +1,4 @@
----
-title: 'Detect Capitals(Easy)'
-disqus: hackmd
----
+# Detect Capitals(Easy)
 
 ## Beginners Guide
 

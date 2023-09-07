@@ -1,7 +1,4 @@
----
-title: 'Single Number(easy)'
-disqus: hackmd
----
+# Single Number(easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Move Zeroes(Easy)'
-disqus: hackmd
----
+# Move Zeroes(Easy)
 
 ## Beginners Guide
 

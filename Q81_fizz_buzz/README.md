@@ -1,7 +1,4 @@
----
-title: 'Fizz Buzz(Easy)'
-disqus: hackmd
----
+# Fizz Buzz(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Ugly Number(Easy)'
-disqus: hackmd
----
+# Ugly Number(Easy)
 
 ## Beginners Guide
 

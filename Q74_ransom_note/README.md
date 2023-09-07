@@ -1,7 +1,4 @@
----
-title: 'Ransom Note(Easy)'
-disqus: hackmd
----
+# Ransom Note(Easy)
 
 ## Beginners Guide
 

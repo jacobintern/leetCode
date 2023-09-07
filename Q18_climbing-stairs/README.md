@@ -1,7 +1,4 @@
----
-title: 'Climbing Stairs(easy)'
-disqus: hackmd
----
+# Climbing Stairs(easy)
 
 ## Beginners Guide
 

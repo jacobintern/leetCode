@@ -1,7 +1,4 @@
----
-title: 'Minimum Depth of Binary Tree(easy)'
-disqus: hackmd
----
+# Minimum Depth of Binary Tree(easy)
 
 ## Beginners Guide
 

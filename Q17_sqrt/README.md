@@ -1,7 +1,4 @@
----
-title: 'Sqrt(x)(easy)'
-disqus: hackmd
----
+# Sqrt(x)(easy)
 
 ## Beginners Guide
 

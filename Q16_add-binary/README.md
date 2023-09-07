@@ -1,7 +1,4 @@
----
-title: 'Add Binary(easy)'
-disqus: hackmd
----
+# Add Binary(easy)
 
 ## Beginners Guide
 

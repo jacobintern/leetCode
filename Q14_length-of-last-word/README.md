@@ -1,7 +1,4 @@
----
-title: 'Length of Last Word(easy)'
-disqus: hackmd
----
+# Length of Last Word(easy)
 
 ## Beginners Guide
 

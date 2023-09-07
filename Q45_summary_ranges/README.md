@@ -1,7 +1,4 @@
----
-title: 'Summary Ranges(Easy)'
-disqus: hackmd
----
+# Summary Ranges(Easy)
 
 ## Beginners Guide
 

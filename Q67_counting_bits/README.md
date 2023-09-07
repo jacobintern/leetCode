@@ -1,7 +1,4 @@
----
-title: 'Counting Bits(Easy)'
-disqus: hackmd
----
+# Counting Bits(Easy)
 
 ## Beginners Guide
 

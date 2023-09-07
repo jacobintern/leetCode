@@ -1,7 +1,4 @@
----
-title: 'Max Consecutive Ones(Easy)'
-disqus: hackmd
----
+# Max Consecutive Ones(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Subtree of Another Tree(Easy)'
-disqus: hackmd
----
+# Subtree of Another Tree(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Longest Uncommon Subsequence I(Easy)'
-disqus: hackmd
----
+# Longest Uncommon Subsequence I(Easy)
 
 ## Beginners Guide
 

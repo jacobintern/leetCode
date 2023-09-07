@@ -1,7 +1,4 @@
----
-title: 'Implement Stack using Queues(Easy)'
-disqus: hackmd
----
+# Implement Stack using Queues(Easy)
 
 ## Beginners Guide
 

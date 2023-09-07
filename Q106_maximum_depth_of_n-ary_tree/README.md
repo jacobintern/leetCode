@@ -1,7 +1,4 @@
----
-title: 'Maximum Depth of N-ary Tree(Easy)'
-disqus: hackmd
----
+# Maximum Depth of N-ary Tree(Easy)
 
 ## Beginners Guide
 

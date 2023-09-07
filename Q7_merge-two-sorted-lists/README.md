@@ -1,7 +1,4 @@
----
-title: 'Merge Two Sorted Lists(easy)'
-disqus: hackmd
----
+# Merge Two Sorted Lists(easy)
 
 ## Beginners Guide
 

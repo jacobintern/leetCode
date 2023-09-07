@@ -1,7 +1,4 @@
----
-title: 'Maximum Subarray(easy)'
-disqus: hackmd
----
+# Maximum Subarray(easy)
 
 ## Beginners Guide
 

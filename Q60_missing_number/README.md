@@ -1,7 +1,4 @@
----
-title: 'Missing Number(Easy)'
-disqus: hackmd
----
+# Missing Number(Easy)
 
 ## Beginners Guide
 

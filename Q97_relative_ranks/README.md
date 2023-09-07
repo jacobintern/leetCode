@@ -1,7 +1,4 @@
----
-title: 'Relative Ranks(Easy)'
-disqus: hackmd
----
+# Relative Ranks(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Best Time to Buy and Sell Stock(easy)'
-disqus: hackmd
----
+# Best Time to Buy and Sell Stock(easy)
 
 ## Beginners Guide
 

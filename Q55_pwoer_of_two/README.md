@@ -1,7 +1,4 @@
----
-title: 'Power of Two(Easy)'
-disqus: hackmd
----
+# Power of Two(Easy)
 
 ## Beginners Guide
 

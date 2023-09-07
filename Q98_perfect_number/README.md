@@ -1,7 +1,4 @@
----
-title: 'Perfect Number(Easy)'
-disqus: hackmd
----
+# Perfect Number(Easy)
 
 ## Beginners Guide
 

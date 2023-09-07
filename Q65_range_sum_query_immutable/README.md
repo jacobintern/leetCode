@@ -1,7 +1,4 @@
----
-title: 'Range Sum Query - Immutable(Easy)'
-disqus: hackmd
----
+# Range Sum Query - Immutable(Easy)
 
 ## Beginners Guide
 

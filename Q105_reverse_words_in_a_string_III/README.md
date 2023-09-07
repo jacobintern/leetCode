@@ -1,7 +1,4 @@
----
-title: 'Reverse Words in a String III(Easy)'
-disqus: hackmd
----
+# Reverse Words in a String III(Easy)
 
 ## Beginners Guide
 

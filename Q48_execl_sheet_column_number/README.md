@@ -1,7 +1,4 @@
----
-title: 'Excel Sheet Column Number(Easy)'
-disqus: hackmd
----
+# Excel Sheet Column Number(Easy)
 
 ## Beginners Guide
 

@@ -1,7 +1,4 @@
----
-title: 'Word PAttern(Easy)'
-disqus: hackmd
----
+# Word PAttern(Easy)
 
 ## Beginners Guide
 

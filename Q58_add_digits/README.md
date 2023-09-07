@@ -1,7 +1,4 @@
----
-title: 'Add Digits(Easy)'
-disqus: hackmd
----
+# Add Digits(Easy)
 
 ## Beginners Guide
 

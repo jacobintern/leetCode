@@ -1,7 +1,4 @@
----
-title: 'Reverse Integer(easy)'
-disqus: hackmd
----
+# Reverse Integer(easy)
 
 ## Beginners Guide
 

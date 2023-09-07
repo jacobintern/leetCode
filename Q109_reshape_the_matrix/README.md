@@ -1,7 +1,4 @@
----
-title: 'Reshape the Matrix(Easy)'
-disqus: hackmd
----
+# Reshape the Matrix(Easy)
 
 ## Beginners Guide
 

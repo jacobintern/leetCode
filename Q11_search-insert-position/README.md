@@ -1,7 +1,4 @@
----
-title: 'Search Insert Position(easy)'
-disqus: hackmd
----
+# Search Insert Position(easy)
 
 ## Beginners Guide
 

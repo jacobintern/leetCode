@@ -1,7 +1,4 @@
----
-title: 'Valid Palindrome(easy)'
-disqus: hackmd
----
+# Valid Palindrome(easy)
 
 ## Beginners Guide
 

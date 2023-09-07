@@ -1,7 +1,4 @@
----
-title: 'Linked List Cycle(Easy)'
-disqus: hackmd
----
+# Linked List Cycle(Easy)
 
 ## Beginners Guide
 

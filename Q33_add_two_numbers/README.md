@@ -1,7 +1,4 @@
----
-title: 'Add Two Numbers(Medium)'
-disqus: hackmd
----
+# Add Two Numbers(Medium)
 
 ## Beginners Guide
 

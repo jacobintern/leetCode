@@ -1,7 +1,4 @@
----
-title: 'Quest Name(Level)'
-disqus: hackmd
----
+# Quest Name(Level)
 
 ## Beginners Guide
 

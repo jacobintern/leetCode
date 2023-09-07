@@ -1,7 +1,4 @@
----
-title: 'Binary tree tilt(Easy)'
-disqus: hackmd
----
+# Binary tree tilt(Easy)
 
 ## Beginners Guide
 

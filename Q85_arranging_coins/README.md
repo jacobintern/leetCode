@@ -1,7 +1,4 @@
----
-title: 'Arranging Coins(Easy)'
-disqus: hackmd
----
+# Arranging Coins(Easy)
 
 ## Beginners Guide
 

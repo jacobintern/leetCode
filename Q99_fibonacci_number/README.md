@@ -1,7 +1,4 @@
----
-title: 'Fibonacci Number(Easy)'
-disqus: hackmd
----
+# Fibonacci Number(Easy)
 
 ## Beginners Guide
 

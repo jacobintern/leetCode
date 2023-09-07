@@ -1,7 +1,4 @@
----
-title: 'Find the Difference(Easy)'
-disqus: hackmd
----
+# Find the Difference(Easy)
 
 ## Beginners Guide
 

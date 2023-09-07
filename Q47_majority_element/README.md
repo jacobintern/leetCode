@@ -1,7 +1,4 @@
----
-title: 'Majority Element(Easy)'
-disqus: hackmd
----
+# Majority Element(Easy)
 
 ## Beginners Guide
 

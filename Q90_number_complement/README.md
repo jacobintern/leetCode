@@ -1,7 +1,4 @@
----
-title: 'Number Complement(Easy)'
-disqus: hackmd
----
+# Number Complement(Easy)
 
 ## Beginners Guide
 
