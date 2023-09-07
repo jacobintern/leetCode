@@ -1,7 +1,4 @@
----
-title: 'Find Mode in Binary Search Tree(Easy)'
-disqus: hackmd
----
+# Find Mode in Binary Search Tree(Easy)
 
 ## Beginners Guide
 
