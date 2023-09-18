@@ -6,22 +6,25 @@ Given a string s consists of some words separated by spaces, return the length o
 
 A word is a maximal substring consisting of non-space characters only.
 
+Example 1
 
-Example 1:
----
 ```go=
 Input: s = "Hello World"
 Output: 5
 ```
 
 Example 2:
+
 ---
+
 ```go=
 Input: s = " "
 Output: 0
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $1 <= s.length <= 10^4$
 * s consists of only English letters and spaces ' '.

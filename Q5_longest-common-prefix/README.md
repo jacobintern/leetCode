@@ -6,9 +6,7 @@ Write a function to find the longest common prefix string amongst an array of st
 
 If there is no common prefix, return an empty string "".
 
-Example 1:
-
----
+Example 1
 
 ```go=
 Input: strs = ["flower","flow","flight"]
@@ -25,9 +23,9 @@ Output: ""
 Explanation: There is no common prefix among the input strings.
 ```
 
-Rules:
-
 ---
+
+### Rules
 
 * 0 <= strs.length <= 200
 * 0 <= strs[i].length <= 200

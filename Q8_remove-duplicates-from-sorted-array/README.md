@@ -25,9 +25,7 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
-Example 1:
-
----
+Example 1
 
 ```go=
 Input: nums = [1,1,2]
@@ -45,9 +43,9 @@ Output: 5, nums = [0,1,2,3,4]
 Explanation: Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively. It doesn't matter what values are set beyond the returned length.
 ```
 
-Rules:
-
 ---
+
+### Rules
 
 * $0 <= nums.length <= 3 * 10^4$
 * $-10^4 <= nums[i] <= 10^4$

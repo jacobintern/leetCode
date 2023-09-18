@@ -12,9 +12,7 @@ What should we return when needle is an empty string? This is a great question t
 
 For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
 
-Example 1:
-
----
+Example 1
 
 ```go=
 Input: haystack = "hello", needle = "ll"
@@ -39,9 +37,9 @@ Input: haystack = "", needle = ""
 Output: 0
 ```
 
-Rules:
-
 ---
+
+### Rules
 
 * $0 <= haystack.length, needle.length <= 5 * 10^4$
 * 0haystack and needle consist of only lower-case English characters.
