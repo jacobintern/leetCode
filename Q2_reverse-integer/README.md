@@ -6,15 +6,17 @@ Given a signed 32-bit integer x, return x with its digits reversed. If reversing
 
 Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
-
 Example 1:
+
 ---
 
 ```go=
 Input: x = 123
 Output: 321
 ```
+
 Example 2:
+
 ---
 
 ```go=
@@ -23,5 +25,7 @@ Output: -312
 ```
 
 Rules:
+
 ---
+
 * $-2^31 <= x <= 2^31 - 1$

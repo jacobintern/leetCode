@@ -27,9 +27,10 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
-
 Example 1:
+
 ---
+
 ```go=
 Input: nums = [3,2,2,3], val = 3
 Output: 2, nums = [2,2]
@@ -38,7 +39,9 @@ It doesn't matter what you leave beyond the returned length. For example if you 
 ```
 
 Example 2:
+
 ---
+
 ```go=
 Input: nums = [0,1,2,2,3,0,4,2], val = 2
 Output: 5, nums = [0,1,4,0,3]
@@ -46,7 +49,9 @@ Explanation: Your function should return length = 5, with the first five element
 ```
 
 Rules:
+
 ---
+
 * 0 <= nums.length <= 100
 * 0 <= nums[i] <= 50
 * 0 <= val <= 100

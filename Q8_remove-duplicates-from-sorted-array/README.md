@@ -25,9 +25,10 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
-
 Example 1:
+
 ---
+
 ```go=
 Input: nums = [1,1,2]
 Output: 2, nums = [1,2]
@@ -35,7 +36,9 @@ Explanation: Your function should return length = 2, with the first two elements
 ```
 
 Example 2:
+
 ---
+
 ```go=
 Input: nums = [0,0,1,1,1,2,2,3,3,4]
 Output: 5, nums = [0,1,2,3,4]
@@ -43,7 +46,9 @@ Explanation: Your function should return length = 5, with the first five element
 ```
 
 Rules:
+
 ---
+
 * $0 <= nums.length <= 3 * 10^4$
 * $-10^4 <= nums[i] <= 10^4$
 * nums is sorted in ascending order.
