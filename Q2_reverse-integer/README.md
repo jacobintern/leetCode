@@ -1,4 +1,4 @@
-# Reverse Integer(easy)
+# Reverse Integer(Easy)
 
 ## Beginners Guide
 

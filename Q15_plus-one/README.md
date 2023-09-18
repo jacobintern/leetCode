@@ -1,4 +1,4 @@
-# Plus One(easy)
+# Plus One(Easy)
 
 ## Beginners Guide
 
@@ -8,7 +8,7 @@ The digits are stored such that the most significant digit is at the head of the
 
 You may assume the integer does not contain any leading zero, except the number 0 itself.
 
-Example 1
+### Example 1
 
 ```go=
 Input: digits = [1,2,3]

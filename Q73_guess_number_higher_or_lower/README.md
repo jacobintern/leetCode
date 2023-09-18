@@ -15,28 +15,30 @@ You call a pre-defined API int guess(int num), which returns three possible resu
 0: your guess is equal to the number I picked (i.e. num == pick).
 Return the number that I picked.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: n = 10, pick = 6
 Output: 6
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: n = 1, pick = 1
 Output: 1
 ```
 
-Example 3:
----
+### Example 3
+
 ```go=
 Input: n = 2, pick = 1
 Output: 1
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $1 <= n <= 2^31 - 1$
 * 1 <= pick <= n

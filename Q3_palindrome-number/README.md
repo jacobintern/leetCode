@@ -1,4 +1,4 @@
-# Maximum Subarray(easy)
+# Maximum Subarray(Easy)
 
 ## Beginners Guide
 

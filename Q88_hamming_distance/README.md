@@ -6,8 +6,8 @@ The Hamming distance between two integers is the number of positions at which th
 
 Given two integers x and y, return the Hamming distance between them.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: x = 1, y = 4
 Output: 2
@@ -18,13 +18,15 @@ Explanation:
 The above arrows point to positions where the corresponding bits are different.
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: x = 3, y = 1
 Output: 1
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $0 <= x, y <= 2^31 - 1$

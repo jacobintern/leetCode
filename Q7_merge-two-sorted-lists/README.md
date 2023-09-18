@@ -1,4 +1,4 @@
-# Merge Two Sorted Lists(easy)
+# Merge Two Sorted Lists(Easy)
 
 ## Beginners Guide
 

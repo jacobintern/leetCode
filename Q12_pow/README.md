@@ -4,7 +4,7 @@
 
 Implement pow(x, n), which calculates x raised to the power n (i.e., $x^n$).
 
-Example 1
+### Example 1
 
 ```go=
 Input: x = 2.00000, n = 10

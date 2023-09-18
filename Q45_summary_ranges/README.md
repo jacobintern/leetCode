@@ -13,9 +13,8 @@ Each range [a,b] in the list should be output as:
 "a->b" if a != b
 "a" if a == b
 
+### Example 1
 
-Example 1:
----
 ```go=
 Input: nums = [0,1,2,4,5,7]
 Output: ["0->2","4->5","7"]
@@ -25,8 +24,8 @@ Explanation: The ranges are:
 [7,7] --> "7"
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: nums = [0,2,3,4,6,8,9]
 Output: ["0","2->4","6","8->9"]
@@ -37,8 +36,10 @@ Explanation: The ranges are:
 [8,9] --> "8->9"
 ```
 
-Rules:
 ---
+
+### Rules
+
 * 0 <= nums.length <= 20
 * $-2^31 <= nums[i] <= 2^31 - 1$
 * All the values of nums are unique.

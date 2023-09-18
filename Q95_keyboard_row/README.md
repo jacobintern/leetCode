@@ -1,4 +1,4 @@
-# Quest Name(Level)
+# Key Board Row(Easy)
 
 ## Beginners Guide
 
@@ -10,29 +10,31 @@ In the American keyboard:
 * the second row consists of the characters "asdfghjkl", and
 * the third row consists of the characters "zxcvbnm".
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: words = ["Hello","Alaska","Dad","Peace"]
 Output: ["Alaska","Dad"]
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: words = ["omk"]
 Output: []
 ```
 
-Example 3:
----
+### Example 3
+
 ```go=
 Input: words = ["adsdf","sfd"]
 Output: ["adsdf","sfd"]
 ```
 
-Rules:
 ---
+
+### Rules
+
 * 1 <= words.length <= 20
 * 1 <= words[i].length <= 100
-* words[i] consists of English letters (both lowercase and uppercase). 
+* words[i] consists of English letters (both lowercase and uppercase).

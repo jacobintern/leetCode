@@ -15,8 +15,8 @@ Notes:
 You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid.
 Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input
 ["MyQueue", "push", "push", "peek", "pop", "empty"]
@@ -33,8 +33,10 @@ myQueue.pop(); // return 1, queue is [2]
 myQueue.empty(); // return false
 ```
 
-Rules:
 ---
+
+### Rules
+
 * 1 <= x <= 9
 * At most 100 calls will be made to push, pop, peek, and empty.
 * All the calls to pop and peek are valid.

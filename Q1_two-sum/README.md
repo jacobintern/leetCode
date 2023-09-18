@@ -1,4 +1,4 @@
-# Two Sum(easy)
+# Two Sum(Easy)
 
 ## Beginners Guide
 

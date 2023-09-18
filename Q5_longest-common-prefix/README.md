@@ -1,4 +1,4 @@
-# Longest Common(easy)
+# Longest Common(Easy)
 
 ## Beginners Guide
 

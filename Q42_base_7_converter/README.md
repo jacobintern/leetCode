@@ -2,24 +2,17 @@
 
 ## Beginners Guide
 
-Quest descript
+Given an base 7 integer num, return a string of its base 10 representation.
 
-Example 1:
----
+### Example 1
+
 ```go=
+Input: num = 20
+Output: "26"
 ```
 
-Example 2:
 ---
-```go=
-```
 
-Example 3:
----
-```go=
-```
+### Rules
 
-Rules:
----
-* $something descript$
-* something descript.
+* $-10^7 <= num <= 10^7$

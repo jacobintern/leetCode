@@ -4,8 +4,8 @@
 
 Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: num = 38
 Output: 2
@@ -15,13 +15,15 @@ Explanation: The process is
 Since 2 has only one digit, return it.
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: num = 0
 Output: 0
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $0 <= num <= 2^31-1$

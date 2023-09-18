@@ -1,4 +1,4 @@
-# Valid Parentheses(easy)
+# Valid Parentheses(Easy)
 
 ## Beginners Guide
 

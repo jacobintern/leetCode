@@ -10,8 +10,8 @@ A subsequence of a string s is a string that can be obtained after deleting any 
 
 For example, "abc" is a subsequence of "aebdc" because you can delete the underlined characters in "aebdc" to get "abc". Other subsequences of "aebdc" include "aebdc", "aeb", and "" (empty string).
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: a = "aba", b = "cdc"
 Output: 3
@@ -19,23 +19,25 @@ Explanation: One longest uncommon subsequence is "aba" because "aba" is a subseq
 Note that "cdc" is also a longest uncommon subsequence.
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: a = "aaa", b = "bbb"
 Output: 3
 Explanation: The longest uncommon subsequences are "aaa" and "bbb".
 ```
 
-Example 3:
----
+### Example 3
+
 ```go=
 Input: a = "aaa", b = "aaa"
 Output: -1
 Explanation: Every subsequence of string a is also a subsequence of string b. Similarly, every subsequence of string b is also a subsequence of string a.
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $1 <= a.length, b.length <= 100$
 * a and b consist of lower-case English letters.

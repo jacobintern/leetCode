@@ -1,4 +1,4 @@
-# Remove Duplicates from Sorted List(easy)
+# Remove Duplicates from Sorted List(Easy)
 
 ## Beginners Guide
 
@@ -17,6 +17,8 @@ Output: [1,2]
 Input: head = [1,1,2,3,3]
 Output: [1,2,3]
 ```
+
+---
 
 ### Rules
 

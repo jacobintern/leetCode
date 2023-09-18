@@ -12,22 +12,23 @@ Assume a BST is defined as follows:
 * The right subtree of a node contains only nodes with keys greater than or equal to the node's key.
 * Both the left and right subtrees must also be binary search trees.
 
+### Example 1
 
-Example 1:
----
 ```go=
 Input: root = [1,null,2,2]
 Output: [2]
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: root = [0]
 Output: [0]
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $The number of nodes in the tree is in the range [1, 10^4].$
 * $-10^5 <= Node.val <= 10^5$

@@ -1,4 +1,4 @@
-# Implement strStr()(easy)
+# Implement strStr(Easy)
 
 ## Beginners Guide
 

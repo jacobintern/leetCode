@@ -1,4 +1,4 @@
-# Climbing Stairs(easy)
+# Climbing Stairs(Easy)
 
 ## Beginners Guide
 
@@ -29,6 +29,6 @@ Explanation: There are three ways to climb to the top.
 
 ---
 
-### Rules:
+### Rules
 
 * 1 <= n <= 45

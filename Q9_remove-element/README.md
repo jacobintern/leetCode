@@ -1,4 +1,4 @@
-# Remove Element(easy)
+# Remove Element(Easy)
 
 ## Beginners Guide
 

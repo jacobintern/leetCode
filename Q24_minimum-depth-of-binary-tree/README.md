@@ -1,4 +1,4 @@
-# Minimum Depth of Binary Tree(easy)
+# Minimum Depth of Binary Tree(Easy)
 
 ## Beginners Guide
 
@@ -8,22 +8,23 @@ The minimum depth is the number of nodes along the shortest path from the root n
 
 Note: A leaf is a node with no children.
 
+### Example 1
 
-Example 1:
----
 ```go=
 Input: root = [3,9,20,null,null,15,7]
 Output: 2
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: root = [2,null,3,null,4,null,5,null,6]
 Output: 5
 ```
 
-Rules:
 ---
+
+### Rules
+
 * The number of nodes in the tree is in the range [0, 105].
 * -1000 <= Node.val <= 1000

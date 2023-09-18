@@ -6,8 +6,8 @@ Given the root of a binary tree, return the sum of every tree node's tilt.
 
 The tilt of a tree node is the absolute difference between the sum of all left subtree node values and all right subtree node values. If a node does not have a left child, then the sum of the left subtree node values is treated as 0. The rule is similar if the node does not have a right child.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: root = [1,2,3]
 Output: 1
@@ -18,8 +18,8 @@ Tilt of node 1 : |2-3| = 1 (left subtree is just left child, so sum is 2; right 
 Sum of every tilt : 0 + 0 + 1 = 1
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: root = [4,2,9,3,5,null,7]
 Output: 15
@@ -33,14 +33,16 @@ Tilt of node 4 : |(3+5+2)-(9+7)| = |10-16| = 6 (left subtree values are 3, 5, an
 Sum of every tilt : 0 + 0 + 0 + 2 + 7 + 6 = 15
 ```
 
-Example 3:
----
+### Example 3
+
 ```go=
 Input: root = [21,7,14,1,1,2,2,3,3]
 Output: 9
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $The number of nodes in the tree is in the range [0, 10^4].$
 * -1000 <= Node.val <= 1000

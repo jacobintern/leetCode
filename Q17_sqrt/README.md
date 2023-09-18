@@ -1,4 +1,4 @@
-# Sqrt(x)(easy)
+# Sqrt(x)(Easy)
 
 ## Beginners Guide
 

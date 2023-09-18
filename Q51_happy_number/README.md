@@ -11,8 +11,8 @@ Repeat the process until the number equals 1 (where it will stay), or it loops e
 Those numbers for which this process ends in 1 are happy.
 Return true if n is a happy number, and false if not.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: n = 19
 Output: true
@@ -23,13 +23,15 @@ Explanation:
 12 + 02 + 02 = 1
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: n = 2
 Output: false
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $1 <= n <= 2^31 - 1$

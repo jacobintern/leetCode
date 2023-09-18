@@ -8,20 +8,22 @@ All the letters in the answer string should be lowercase characters, and there s
 
 Note: You are not allowed to use any built-in library method to directly solve this problem.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: num = 26
 Output: "1a"
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: num = -1
 Output: "ffffffff"
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $-2^31 <= num <= 2^31 - 1$

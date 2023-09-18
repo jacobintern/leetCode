@@ -1,4 +1,4 @@
-# Length of Last Word(easy)
+# Length of Last Word(Easy)
 
 ## Beginners Guide
 
@@ -6,7 +6,7 @@ Given a string s consists of some words separated by spaces, return the length o
 
 A word is a maximal substring consisting of non-space characters only.
 
-Example 1
+### Example 1
 
 ```go=
 Input: s = "Hello World"

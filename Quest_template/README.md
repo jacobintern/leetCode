@@ -4,22 +4,24 @@
 
 Quest descript
 
-Example 1:
----
+### Example 1
+
 ```go=
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 ```
 
-Example 3:
----
+### Example 3
+
 ```go=
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $something descript$
 * something descript.

@@ -10,24 +10,26 @@ The reshaped matrix should be filled with all the elements of the original matri
 
 If the reshape operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: mat = [[1,2],[3,4]], r = 1, c = 4
 Output: [[1,2,3,4]]
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: mat = [[1,2],[3,4]], r = 2, c = 4
 Output: [[1,2],[3,4]]
 ```
 
-Rules:
 ---
+
+### Rules
+
 * m == mat.length
 * n == mat[i].length
 * 1 <= m, n <= 100
-* -1000 <= mat[i][j] <= 1000
+* -1000 <= mat[i] [j] <= 1000
 * 1 <= r, c <= 300

@@ -1,4 +1,4 @@
-# Remove Duplicates from Sorted Array(easy)
+# Remove Duplicates from Sorted Array(Easy)
 
 ## Beginners Guide
 

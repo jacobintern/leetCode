@@ -8,8 +8,8 @@ You are given a non-decreasing integer array `timeSeries`, where `timeSeries[i]`
 
 Return the total number of seconds that Ashe is poisoned.
 
-Example 1:
----
+### Example 1
+
 ```go=
 Input: timeSeries = [1,4], duration = 2
 Output: 4
@@ -19,8 +19,8 @@ Explanation: Teemo's attacks on Ashe go as follows:
 Ashe is poisoned for seconds 1, 2, 4, and 5, which is 4 seconds in total.
 ```
 
-Example 2:
----
+### Example 2
+
 ```go=
 Input: timeSeries = [1,2], duration = 2
 Output: 3
@@ -30,8 +30,10 @@ Explanation: Teemo's attacks on Ashe go as follows:
 Ashe is poisoned for seconds 1, 2, and 3, which is 3 seconds in total.
 ```
 
-Rules:
 ---
+
+### Rules
+
 * $1 <= timeSeries.length <= 10^4$
 * $0 <= timeSeries[i], duration <= 10^7$
 * timeSeries is sorted in non-decreasing order.
