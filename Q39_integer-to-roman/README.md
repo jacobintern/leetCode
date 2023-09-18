@@ -1,4 +1,4 @@
-# Reoman To Integer(Easy)
+# Integer To Reoman(Easy)
 
 ## Beginners Guide
 

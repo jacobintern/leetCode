@@ -1,4 +1,4 @@
-# Quest Name(Level)
+# Number of 1 Bits(Level)
 
 ## Beginners Guide
 

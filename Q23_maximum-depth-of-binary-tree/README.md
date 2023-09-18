@@ -1,4 +1,4 @@
-# Symmetric Tree(Easy)
+# Maximum Depth of Binary Tree(Easy)
 
 ## Beginners Guide
 
@@ -38,5 +38,5 @@ Output: 2
 
 ### Rules
 
-* The number of nodes in the tree is in the range [1, 1000].
+* $The number of nodes in the tree is in the range [1, 10^4]$.
 * -100 <= Node.val <= 100

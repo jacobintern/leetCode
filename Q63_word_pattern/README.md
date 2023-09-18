@@ -1,4 +1,4 @@
-# Word PAttern(Easy)
+# Word Pattern(Easy)
 
 ## Beginners Guide
 
