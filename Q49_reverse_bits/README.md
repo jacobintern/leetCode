@@ -1,4 +1,4 @@
-#  Reverse Bits(Easy)
+# Reverse Bits(Easy)
 
 ## Beginners Guide
 
