@@ -13,9 +13,7 @@ Input: x = 4
 Output: 2
 ```
 
-Example 2:
-
----
+### Example 2
 
 ```go=
 Input: x = 8

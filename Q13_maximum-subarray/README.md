@@ -12,18 +12,14 @@ Output: 6
 Explanation: [4,-1,2,1] has the largest sum = 6.
 ```
 
-Example 2:
-
----
+### Example 2
 
 ```go=
 Input: nums = [1]
 Output: 1
 ```
 
-Example 3:
-
----
+### Example 3
 
 ```go=
 Input: nums = [5,4,-1,7,8]

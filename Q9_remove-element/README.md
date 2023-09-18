@@ -27,7 +27,7 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
-Example 1
+### Example 1
 
 ```go=
 Input: nums = [3,2,2,3], val = 3
@@ -36,9 +36,7 @@ Explanation: Your function should return length = 2, with the first two elements
 It doesn't matter what you leave beyond the returned length. For example if you return 2 with nums = [2,2,3,3] or nums = [2,2,0,0], your answer will be accepted.
 ```
 
-Example 2:
-
----
+### Example 2
 
 ```go=
 Input: nums = [0,1,2,2,3,0,4,2], val = 2

@@ -13,9 +13,7 @@ Input: s = "Hello World"
 Output: 5
 ```
 
-Example 2:
-
----
+### Example 2
 
 ```go=
 Input: s = " "

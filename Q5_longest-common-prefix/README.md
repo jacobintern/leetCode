@@ -6,16 +6,14 @@ Write a function to find the longest common prefix string amongst an array of st
 
 If there is no common prefix, return an empty string "".
 
-Example 1
+### Example 1
 
 ```go=
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
 ```
 
-Example 2:
-
----
+### Example 2
 
 ```go=
 Input: strs = ["dog","racecar","car"]

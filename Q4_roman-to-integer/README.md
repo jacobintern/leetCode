@@ -24,16 +24,14 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 * C can be placed before D (500) and M (1000) to make 400 and 900.
 Given a roman numeral, convert it to an integer.
 
-Example 1
+### Example 1
 
 ```go=
 Input: s = "III"
 Output: 3
 ```
 
-Example 2:
-
----
+### Example 2
 
 ```go=
 Input: s = "MCMXCIV"
