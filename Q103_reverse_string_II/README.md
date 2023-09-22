@@ -8,17 +8,13 @@ If there are fewer than k characters left, reverse all of them. If there are les
 
 ### Example 1
 
-```go=
-Input: s = "abcdefg", k = 2
+> Input: s = "abcdefg", k = 2
 Output: "bacdfeg"
-```
 
 ### Example 2
 
-```go=
-Input: s = "abcd", k = 2
+> Input: s = "abcd", k = 2
 Output: "bacd"
-```
 
 ---
 

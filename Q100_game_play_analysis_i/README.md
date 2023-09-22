@@ -14,17 +14,13 @@ Assume a BST is defined as follows:
 
 ### Example 1
 
-```go=
-Input: root = [1,null,2,2]
+> Input: root = [1,null,2,2]
 Output: [2]
-```
 
 ### Example 2
 
-```go=
-Input: root = [0]
+> Input: root = [0]
 Output: [0]
-```
 
 ---
 

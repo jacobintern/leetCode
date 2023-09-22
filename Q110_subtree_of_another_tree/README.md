@@ -8,17 +8,13 @@ A subtree of a binary tree tree is a tree that consists of a node in tree and al
 
 ### Example 1
 
-```go=
-Input: root = [3,4,5,1,2], subRoot = [4,1,2]
+> Input: root = [3,4,5,1,2], subRoot = [4,1,2]
 Output: true
-```
 
 ### Example 2
 
-```go=
-Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
+> Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
 Output: false
-```
 
 ---
 

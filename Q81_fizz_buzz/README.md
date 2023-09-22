@@ -11,24 +11,18 @@ answer[i] == i (as a string) if none of the above conditions are true.
 
 ### Example 1
 
-```go=
-Input: n = 3
+> Input: n = 3
 Output: ["1","2","Fizz"]
-```
 
 ### Example 2
 
-```go=
-Input: n = 5
+> Input: n = 5
 Output: ["1","2","Fizz","4","Buzz"]
-```
 
 ### Example 3
 
-```go=
-Input: n = 15
+> Input: n = 15
 Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
-```
 
 ---
 

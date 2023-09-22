@@ -8,28 +8,22 @@ Each letter in `magazine` can only be used once in `ransomNote`.
 
 ### Example 1
 
-```go=
-Input: ransomNote = "a", magazine = "b"
+> Input: ransomNote = "a", magazine = "b"
 Output: false
-```
 
 ### Example 2
 
-```go=
-Input: ransomNote = "aa", magazine = "ab"
+> Input: ransomNote = "aa", magazine = "ab"
 Output: false
-```
 
 ### Example 3
 
-```go=
-Input: ransomNote = "aa", magazine = "aab"
+> Input: ransomNote = "aa", magazine = "aab"
 Output: true
-```
 
 ---
 
 ### Rules
 
-* $1 <= ransomNote.length, magazine.length <= 10^5$
-* ransomNote and magazine consist of lowercase English letters.
+* 1 <= ransomNote.length, magazine.length <= 10$^5$
+* `ransomNote` and `magazine` consist of lowercase English letters.

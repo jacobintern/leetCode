@@ -2,38 +2,32 @@
 
 ## Beginners Guide
 
-Given a pattern and a string s, find if s follows the same pattern.
+Given a `pattern` and a string `s`, find if `s` follows the same pattern.
 
-Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
+Here follow means a full match, such that there is a bijection between a letter in `pattern` and a **non-empty** word in `s`.
 
 ### Example 1
 
-```go=
-Input: pattern = "abba", s = "dog cat cat dog"
+> Input: pattern = "abba", s = "dog cat cat dog"
 Output: true
-```
 
 ### Example 2
 
-```go=
-Input: pattern = "abba", s = "dog cat cat fish"
+> Input: pattern = "abba", s = "dog cat cat fish"
 Output: false
-```
 
 ### Example 3
 
-```go=
-Input: pattern = "aaaa", s = "dog cat cat dog"
+> Input: pattern = "aaaa", s = "dog cat cat dog"
 Output: false
-```
 
 ---
 
 ### Rules
 
 * 1 <= pattern.length <= 300
-* pattern contains only lower-case English letters.
+* `pattern` contains only lower-case English letters.
 * 1 <= s.length <= 3000
-* s contains only lowercase English letters and spaces ' '.
-* s does not contain any leading or trailing spaces.
-* All the words in s are separated by a single space.
+* `s` contains only lowercase English letters and spaces `' '`.
+* `s` does not contain any leading or trailing spaces.
+* All the words in `s` are separated by a **single space**.

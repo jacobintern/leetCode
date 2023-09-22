@@ -12,24 +12,18 @@ In the American keyboard:
 
 ### Example 1
 
-```go=
-Input: words = ["Hello","Alaska","Dad","Peace"]
+> Input: words = ["Hello","Alaska","Dad","Peace"]
 Output: ["Alaska","Dad"]
-```
 
 ### Example 2
 
-```go=
-Input: words = ["omk"]
+> Input: words = ["omk"]
 Output: []
-```
 
 ### Example 3
 
-```go=
-Input: words = ["adsdf","sfd"]
+> Input: words = ["adsdf","sfd"]
 Output: ["adsdf","sfd"]
-```
 
 ---
 

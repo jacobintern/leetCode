@@ -15,19 +15,15 @@ Return `true` if the student is eligible for an attendance award, or `false` oth
 
 ### Example 1
 
-```go=
-Input: s = "PPALLP"
+> Input: s = "PPALLP"
 Output: true
 Explanation: The student has fewer than 2 absences and was never late 3 or more consecutive days.
-```
 
 ### Example 2
 
-```go=
-Input: s = "PPALLL"
+> Input: s = "PPALLL"
 Output: false
 Explanation: The student was late 3 consecutive days in the last 3 days, so is not eligible for the award.
-```
 
 ---
 

@@ -12,28 +12,22 @@ For example, "abc" is a subsequence of "aebdc" because you can delete the underl
 
 ### Example 1
 
-```go=
-Input: a = "aba", b = "cdc"
+> Input: a = "aba", b = "cdc"
 Output: 3
 Explanation: One longest uncommon subsequence is "aba" because "aba" is a subsequence of "aba" but not "cdc".
 Note that "cdc" is also a longest uncommon subsequence.
-```
 
 ### Example 2
 
-```go=
-Input: a = "aaa", b = "bbb"
+> Input: a = "aaa", b = "bbb"
 Output: 3
 Explanation: The longest uncommon subsequences are "aaa" and "bbb".
-```
 
 ### Example 3
 
-```go=
-Input: a = "aaa", b = "aaa"
+> Input: a = "aaa", b = "aaa"
 Output: -1
 Explanation: Every subsequence of string a is also a subsequence of string b. Similarly, every subsequence of string b is also a subsequence of string a.
-```
 
 ---
 

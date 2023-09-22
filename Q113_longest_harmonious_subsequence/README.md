@@ -10,25 +10,19 @@ A subsequence of array is a sequence that can be derived from the array by delet
 
 ### Example 1
 
-```go=
-Input: nums = [1,3,2,2,5,2,3,7]
+> Input: nums = [1,3,2,2,5,2,3,7]
 Output: 5
 Explanation: The longest harmonious subsequence is [3,2,2,2,3].
-```
 
 ### Example 2
 
-```go=
-Input: nums = [1,2,3,4]
+> Input: nums = [1,2,3,4]
 Output: 2
-```
 
 ### Example 3
 
-```go=
-Input: nums = [1,1,1,1]
+> Input: nums = [1,1,1,1]
 Output: 0
-```
 
 ---
 

@@ -12,17 +12,13 @@ If the reshape operation with given parameters is possible and legal, output the
 
 ### Example 1
 
-```go=
-Input: mat = [[1,2],[3,4]], r = 1, c = 4
+> Input: mat = [[1,2],[3,4]], r = 1, c = 4
 Output: [[1,2,3,4]]
-```
 
 ### Example 2
 
-```go=
-Input: mat = [[1,2],[3,4]], r = 2, c = 4
+> Input: mat = [[1,2],[3,4]], r = 2, c = 4
 Output: [[1,2],[3,4]]
-```
 
 ---
 

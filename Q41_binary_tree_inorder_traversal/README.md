@@ -2,32 +2,33 @@
 
 ## Beginners Guide
 
-Given the root of a binary tree, return the inorder traversal of its nodes' values.
+Given the `root` of a binary tree, return the inorder traversal of its nodes' values.
 
 ### Example 1
 
-```go=
-Input: root = [1,null,2,3]
-Output: [1,3,2]
+```mermaid
+graph TD
+A((1)) --> B((nil))
+A --> C((2)) --> D((3))
+C --> E((nil))
 ```
+
+> Input: root = [1,null,2,3]
+Output: [1,3,2]
 
 ### Example 2
 
-```go=
-Input: root = []
+> Input: root = []
 Output: []
-```
 
 ### Example 3
 
-```go=
-Input: root = [1]
+> Input: root = [1]
 Output: [1]
-```
 
 ---
 
 ### Rules
 
-* The number of nodes in the tree is in the range [0, 100].
+* The number of nodes in the tree is in the range `[0, 100]`.
 * -100 <= Node.val <= 100

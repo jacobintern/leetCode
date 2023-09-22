@@ -2,34 +2,26 @@
 
 ## Beginners Guide
 
-Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer.
+You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the $i^{th}$ digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.
 
-The digits are stored such that the most significant digit is at the head of the list, and each element in the array contains a single digit.
-
-You may assume the integer does not contain any leading zero, except the number 0 itself.
+Increment the large integer by one and return the resulting array of digits.
 
 ### Example 1
 
-```go=
-Input: digits = [1,2,3]
+> Input: digits = [1,2,3]
 Output: [1,2,4]
 Explanation: The array represents the integer 123.
-```
 
 ### Example 2
 
-```go=
-Input: digits = [4,3,2,1]
+> Input: digits = [4,3,2,1]
 Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
-```
 
 ### Example 3
 
-```go=
-Input: digits = [0]
+> Input: digits = [0]
 Output: [1]
-```
 
 ---
 
@@ -37,3 +29,4 @@ Output: [1]
 
 * 1 <= digits.length <= 100
 * 0 <= digits[i] <= 9
+* `digits` does not contain any leading `0`'s.

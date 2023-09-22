@@ -2,41 +2,35 @@
 
 ## Beginners Guide
 
-You are given an array prices where prices[i] is the price of a given stock on the ith day.
+You are given an array `prices` where `prices[i]` is the price of a given stock on the i$^{th}$ day.
 
-Find the maximum profit you can achieve. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+On each day, you may decide to buy and/or sell the stock. You can only hold **at most one** share of the stock at any time. However, you can buy it then immediately sell it on the **same day**.
 
-Note: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
+Find and return the **maximum** profit you can achieve.
 
 ### Example 1
 
-```go=
-Input: prices = [7,1,5,3,6,4]
+> Input: prices = [7,1,5,3,6,4]
 Output: 7
 Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
 Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
-```
 
 ### Example 2
 
-```go=
-Input: prices = [1,2,3,4,5]
+> Input: prices = [1,2,3,4,5]
 Output: 4
 Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
 Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are engaging multiple transactions at the same time. You must sell before buying again.
-```
 
 ### Example 3
 
-```go=
-Input: prices = [7,6,4,3,1]
+> Input: prices = [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e., max profit = 0.
-```
 
 ---
 
 ### Rules
 
-* $1 <= prices.length <= 3 * 10^4$
-* $0 <= prices[i] <= 10^4$
+* 1 <= prices.length <= 3 * 10$^4$
+* 0 <= prices[i] <= 10$^4$

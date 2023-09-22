@@ -8,19 +8,15 @@ Given an integer n, return true if n is a perfect number, otherwise return false
 
 ### Example 1
 
-```go=
-Input: num = 28
+> Input: num = 28
 Output: true
 Explanation: 28 = 1 + 2 + 4 + 7 + 14
 1, 2, 4, 7, and 14 are all divisors of 28.
-```
 
 ### Example 2
 
-```go=
-Input: num = 7
+> Input: num = 7
 Output: false
-```
 
 ---
 

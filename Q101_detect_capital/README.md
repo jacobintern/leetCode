@@ -11,24 +11,18 @@ Given a string word, return true if the usage of capitals in it is right.
 
 ### Example 1
 
-```go=
-Input: word = "USA"
+> Input: word = "USA"
 Output: true
-```
 
 ### Example 2
 
-```go=
-Input: word = "FlaG"
+> Input: word = "FlaG"
 Output: false
-```
 
 ### Example 3
 
-```go=
-Input: word = "leetcode"
+> Input: word = "leetcode"
 Output: true
-```
 
 ---
 

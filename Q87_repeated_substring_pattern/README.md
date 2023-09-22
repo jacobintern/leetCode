@@ -6,26 +6,20 @@ Given a string s, check if it can be constructed by taking a substring of it and
 
 ### Example 1
 
-```go=
-Input: s = "abab"
+> Input: s = "abab"
 Output: true
 Explanation: It is the substring "ab" twice.
-```
 
 ### Example 2
 
-```go=
-Input: s = "aba"
+> Input: s = "aba"
 Output: false
-```
 
 ### Example 3
 
-```go=
-Input: s = "abcabcabcabc"
+> Input: s = "abcabcabcabc"
 Output: true
 Explanation: It is the substring "abc" four times or the substring "abcabc" twice.
-```
 
 ---
 

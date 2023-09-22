@@ -2,7 +2,7 @@
 
 ## Beginners Guide
 
-Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
+Given a string `columnTitle` that represents the column title as appears in an Excel sheet, return its corresponding column number.
 
 For example:
 
@@ -19,29 +19,23 @@ AB -> 28
 
 ### Example 1
 
-```go=
-Input: columnTitle = "A"
+> Input: columnTitle = "A"
 Output: 1
-```
 
 ### Example 2
 
-```go=
-Input: columnTitle = "AB"
+> Input: columnTitle = "AB"
 Output: 28
-```
 
 ### Example 3
 
-```go=
-Input: columnTitle = "ZY"
+> Input: columnTitle = "ZY"
 Output: 701
-```
 
 ---
 
 ### Rules
 
 * 1 <= columnTitle.length <= 7
-* columnTitle consists only of uppercase English letters.
-* columnTitle is in the range ["A", "FXSHRXW"].
+* `columnTitle` consists only of uppercase English letters.
+* `columnTitle` is in the range `["A", "FXSHRXW"]`.

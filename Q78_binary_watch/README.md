@@ -17,17 +17,13 @@ For example, "10:2" is not valid. It should be "10:02".
 
 ### Example 1
 
-```go=
-Input: turnedOn = 1
+> Input: turnedOn = 1
 Output: ["0:01","0:02","0:04","0:08","0:16","0:32","1:00","2:00","4:00","8:00"]
-```
 
 ### Example 2
 
-```go=
-Input: turnedOn = 9
+> Input: turnedOn = 9
 Output: []
-```
 
 ---
 

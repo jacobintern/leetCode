@@ -8,19 +8,15 @@ Given the integer n, return the number of complete rows of the staircase you wil
 
 ### Example 1
 
-```go=
-Input: n = 5
+> Input: n = 5
 Output: 2
 Explanation: Because the 3rd row is incomplete, we return 2.
-```
 
 ### Example 2
 
-```go=
-Input: n = 8
+> Input: n = 8
 Output: 3
 Explanation: Because the 4th row is incomplete, we return 3.
-```
 
 ---
 
