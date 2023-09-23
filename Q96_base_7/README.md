@@ -2,7 +2,7 @@
 
 ## Beginners Guide
 
-Given an integer num, return a string of its base 7 representation.
+Given an integer `num`, return a string of its **base 7** representation.
 
 ### Example 1
 
@@ -18,4 +18,4 @@ Output: "-10"
 
 ### Rules
 
-* $-10^7 <= num <= 10^7$
+* -10$^7$ <= num <= 10$^7$

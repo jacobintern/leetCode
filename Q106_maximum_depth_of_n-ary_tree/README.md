@@ -22,5 +22,5 @@ Output: 5
 
 ### Rules
 
-* $The total number of nodes is in the range [0, 10^4].$
-* The depth of the n-ary tree is less than or equal to 1000.
+* The total number of nodes is in the range [0, 10$^4$].
+* The depth of the n-ary tree is less than or equal to `1000`.

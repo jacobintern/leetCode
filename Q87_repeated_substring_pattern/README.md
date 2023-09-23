@@ -2,7 +2,7 @@
 
 ## Beginners Guide
 
-Given a string s, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
+Given a string `s`, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
 
 ### Example 1
 
@@ -25,5 +25,5 @@ Explanation: It is the substring "abc" four times or the substring "abcabc" twic
 
 ### Rules
 
-* $1 <= s.length <= 10^4$
-* s consists of lowercase English letters.
+* 1 <= s.length <= 10$^4$
+* `s` consists of lowercase English letters.

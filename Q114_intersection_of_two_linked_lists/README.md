@@ -2,7 +2,7 @@
 
 ## Beginners Guide
 
-Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.
+Given the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.
 
 For example, the following two linked lists begin to intersect at node c1:
 
@@ -11,6 +11,7 @@ graph LR
 A1((a1)) --> A2((a2)) --> C1((c1))
 B1((b1)) --> B2((b2)) --> B3((b3)) --> C1
 C1 --> C2((c2)) --> C3((c3))
+```
 
 The test cases are generated such that there are no cycles anywhere in the entire linked structure.
 
@@ -35,6 +36,7 @@ graph LR
 A1((4)) --> A2((1)) --> C1((8))
 B1((5)) --> B2((6)) --> B3((1)) --> C1
 C1 --> C2((4)) --> C3((5))
+```
 
 > Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
  Output: Intersected at '8'
@@ -49,6 +51,7 @@ graph LR
 A1((1)) --> A2((9)) --> A3((1)) --> C1((2))
 B1((3)) --> C1
 C1 --> C2((4))
+```
 
 > Input: intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
 Output: Intersected at '2'
@@ -61,6 +64,7 @@ From the head of A, it reads as [1,9,1,2,4]. From the head of B, it reads as [3,
 graph LR
 A1((2)) --> A2((6)) --> A3((4))
 B1((1)) --> B2((5))
+```
 
 > Input: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
 Output: No intersection
@@ -73,8 +77,8 @@ Explanation: The two lists do not intersect, so return null.
 
 * The number of nodes of listA is in the m.
 * The number of nodes of listB is in the n.
-* 1 <= m, n <= 3 * $10^4$
-* 1 <= Node.val <= $10^5$
+* 1 <= m, n <= 3 * 10$^4$
+* 1 <= Node.val <= 10$^5$
 * 0 <= skipA < m
 * 0 <= skipB < n
 * intersectVal is 0 if listA and listB do not intersect.

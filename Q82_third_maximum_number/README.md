@@ -2,7 +2,7 @@
 
 ## Beginners Guide
 
-Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
+Given an integer array `nums`, return the **third distinct maximum** number in this array. If the third maximum does not exist, return the maximum number.
 
 ### Example 1
 
@@ -35,5 +35,5 @@ The third distinct maximum is 1.
 
 ### Rules
 
-* $1 <= nums.length <= 10^4$
-* $-2^31 <= nums[i] <= 2^31 -1$
+* 1 <= nums.length <= 10$^4$
+* -2$^{31}$ <= nums[i] <= 2$^{31}$ -1
