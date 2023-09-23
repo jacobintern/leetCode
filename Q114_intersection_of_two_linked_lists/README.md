@@ -27,7 +27,7 @@ intersectVal - The value of the node where the intersection occurs. This is 0 if
 * listB - The second linked list.
 * skipA - The number of nodes to skip ahead in listA (starting from the head) to get to the intersected node.
 * skipB - The number of nodes to skip ahead in listB (starting from the head) to get to the intersected node.
-The judge will then create the linked structure based on these inputs and pass the two heads, 
+The judge will then create the linked structure based on these inputs and pass the two heads,
 
 ### Example 1
 
