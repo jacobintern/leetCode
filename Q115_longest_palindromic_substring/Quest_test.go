@@ -73,3 +73,68 @@ func Test5(t *testing.T) {
 		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
 	}
 }
+
+func Test6(t *testing.T) {
+
+	params := parameters{str: "dbbd"}
+
+	expected := "dbbd"
+
+	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
+
+func Test7(t *testing.T) {
+
+	params := parameters{str: "eabcb"}
+
+	expected := "bcb"
+
+	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
+
+func Test8(t *testing.T) {
+
+	params := parameters{str: "aaabaaaa"}
+
+	expected := "aaabaaa"
+
+	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
+
+func Test9(t *testing.T) {
+
+	params := parameters{str: "caaaaa"}
+
+	expected := "aaaaa"
+
+	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
+
+func Test10(t *testing.T) {
+
+	params := parameters{str: "aaaabbbbbbbbbbccccccccccddddddddddeeeeeeeeeeffffffffffgggggggggghhhhhhhhhhiiiiiiiiiijjjjjjjjjjkkkkkkkkkkllllllllllmmmmmmmmmmnnnnnnnnnnooooooooooppppppppppqqqqqqqqqqrrrrrrrrrrssssssssssttttttttttuuuuuuuuuuvvvvvvvvvvwwwwwwwwwwxxxxxxxxxxyyyyyyyyyyzzzzzzzzzzyyyyyyyyyyxxxxxxxxxxwwwwwwwwwwvvvvvvvvvvuuuuuuuuuuttttttttttssssssssssrrrrrrrrrrqqqqqqqqqqppppppppppoooooooooonnnnnnnnnnmmmmmmmmmmllllllllllkkkkkkkkkkjjjjjjjjjjiiiiiiiiiihhhhhhhhhhggggggggggffffffffffeeeeeeeeeeddddddddddccccccccccbbbbbbbbbbaaaaaaaabbbbbbbbbbccccccccccddddddddddeeeeeeeeeeffffffffffgggggggggghhhhhhhhhhiiiiiiiiiijjjjjjjjjjkkkkkkkkkkllllllllllmmmmmmmmmmnnnnnnnnnnooooooooooppppppppppqqqqqqqqqqrrrrrrrrrrssssssssssttttttttttuuuuuuuuuuvvvvvvvvvvwwwwwwwwwwxxxxxxxxxxyyyyyyyyyyzzzzzzzzzzyyyyyyyyyyxxxxxxxxxxwwwwwwwwwwvvvvvvvvvvuuuuuuuuuuttttttttttssssssssssrrrrrrrrrrqqqqqqqqqqppppppppppoooooooooonnnnnnnnnnmmmmmmmmmmllllllllllkkkkkkkkkkjjjjjjjjjjiiiiiiiiiihhhhhhhhhhggggggggggffffffffffeeeeeeeeeeddddddddddccccccccccbbbbbbbbbbaaaa"}
+
+	expected := "aaaabbbbbbbbbbccccccccccddddddddddeeeeeeeeeeffffffffffgggggggggghhhhhhhhhhiiiiiiiiiijjjjjjjjjjkkkkkkkkkkllllllllllmmmmmmmmmmnnnnnnnnnnooooooooooppppppppppqqqqqqqqqqrrrrrrrrrrssssssssssttttttttttuuuuuuuuuuvvvvvvvvvvwwwwwwwwwwxxxxxxxxxxyyyyyyyyyyzzzzzzzzzzyyyyyyyyyyxxxxxxxxxxwwwwwwwwwwvvvvvvvvvvuuuuuuuuuuttttttttttssssssssssrrrrrrrrrrqqqqqqqqqqppppppppppoooooooooonnnnnnnnnnmmmmmmmmmmllllllllllkkkkkkkkkkjjjjjjjjjjiiiiiiiiiihhhhhhhhhhggggggggggffffffffffeeeeeeeeeeddddddddddccccccccccbbbbbbbbbbaaaaaaaabbbbbbbbbbccccccccccddddddddddeeeeeeeeeeffffffffffgggggggggghhhhhhhhhhiiiiiiiiiijjjjjjjjjjkkkkkkkkkkllllllllllmmmmmmmmmmnnnnnnnnnnooooooooooppppppppppqqqqqqqqqqrrrrrrrrrrssssssssssttttttttttuuuuuuuuuuvvvvvvvvvvwwwwwwwwwwxxxxxxxxxxyyyyyyyyyyzzzzzzzzzzyyyyyyyyyyxxxxxxxxxxwwwwwwwwwwvvvvvvvvvvuuuuuuuuuuttttttttttssssssssssrrrrrrrrrrqqqqqqqqqqppppppppppoooooooooonnnnnnnnnnmmmmmmmmmmllllllllllkkkkkkkkkkjjjjjjjjjjiiiiiiiiiihhhhhhhhhhggggggggggffffffffffeeeeeeeeeeddddddddddccccccccccbbbbbbbbbbaaaa"
+
+	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}

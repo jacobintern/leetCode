@@ -5,38 +5,44 @@ import (
 )
 
 func longestPalindrome(s string) string {
-	res := ""
-	if len(s) == 0 {
+	res, strLen := "", len(s)
+	if strLen == 0 {
 		return res
 	}
-	if len(s) == 1 {
+	if strLen == 1 {
 		return s
 	}
-	if s == strings.Repeat(string(s[0]), len(s)) {
+	if s == strings.Repeat(string(s[0]), strLen) {
 		return s
 	}
-
-	strLen := len(s)
 
 	// 圈數
-	for i := 0; i < strLen; i++ {
-		// j 前指標, k 後指標
-		tmp, k, l := "", i, i
-		for j := 0; j < strLen; j++ {
-			if s[k] == s[l] {
-				if k != l {
-					tmp = string(s[k]) + tmp + string(s[l])
-				} else {
-					tmp = string(s[k]) + tmp
-				}
+	for i := 0; i < strLen-1; i++ {
+		// l 前指標, r 後指標
+		var tmp string
+		var l, r int
+
+		if s[i] != s[i+1] {
+			// 中心不一樣時
+			tmp, l, r = string(s[i]), i, i
+		} else {
+			tmp, l, r = "", i, i+1
+		}
+
+		for l != -1 || r != strLen {
+			if r == strLen || l == -1 || s[l] != s[r] {
+				break
+			} else if s[l] == s[r] && l != r {
+				tmp = string(s[l]) + tmp + string(s[r])
 			}
-			if k != 0 {
-				k--
+			if l > -1 {
+				l--
 			}
-			if l != strLen-1 {
-				l++
+			if r < strLen {
+				r++
 			}
 		}
+
 		if len(tmp) > 0 && len(tmp) > len(res) {
 			res = tmp
 		}
