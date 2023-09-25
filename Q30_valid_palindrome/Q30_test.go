@@ -11,7 +11,7 @@ func Test1(t *testing.T) {
 
 	expected := true
 
-	if reflect.DeepEqual(expected, isPalindrome(str)) {
+	if reflect.DeepEqual(expected, isPalindrome3(str)) {
 		t.Log("sucess")
 	} else {
 		t.Error("fail")

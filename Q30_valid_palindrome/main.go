@@ -46,3 +46,25 @@ func isPalindrome2(s string) bool {
 func isLetter(s byte) bool {
 	return s >= 'a' && s <= 'z' || s >= '0' && s <= '9'
 }
+
+func isPalindrome3(s string) bool {
+	l, r := 0, len(s)-1
+	s = strings.ToLower(s)
+	for r > l {
+		if !isLetter(s[l]) {
+			l++
+			continue
+		}
+		if !isLetter(s[r]) {
+			r--
+			continue
+		}
+
+		if s[l] != s[r] {
+			return false
+		}
+		l++
+		r--
+	}
+	return true
+}
