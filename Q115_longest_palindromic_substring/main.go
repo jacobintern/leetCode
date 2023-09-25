@@ -1,52 +1,31 @@
 package Q115
 
-import (
-	"strings"
-)
-
 func longestPalindrome(s string) string {
-	res, strLen := "", len(s)
+	strLen := len(s)
 	if strLen == 0 {
-		return res
-	}
-	if strLen == 1 {
-		return s
-	}
-	if s == strings.Repeat(string(s[0]), strLen) {
-		return s
+		return ""
 	}
 
-	// 圈數
-	for i := 0; i < strLen-1; i++ {
-		// l 前指標, r 後指標
-		var tmp string
-		var l, r int
-
-		if s[i] != s[i+1] {
-			// 中心不一樣時
-			tmp, l, r = string(s[i]), i, i
-		} else {
-			tmp, l, r = "", i, i+1
+	// l 前指標, r 後指標, head & tail 標記最長結果
+	var l, r, head, tail int
+	for r < strLen {
+		if (strLen-r)*2 < (tail-head)+1 {
+			break
+		}
+		for r+1 < strLen && s[l] == s[r+1] {
+			r++
+		}
+		for l-1 >= 0 && r+1 < strLen && s[l-1] == s[r+1] {
+			l--
+			r++
 		}
 
-		for l != -1 || r != strLen {
-			if r == strLen || l == -1 || s[l] != s[r] {
-				break
-			} else if s[l] == s[r] && l != r {
-				tmp = string(s[l]) + tmp + string(s[r])
-			}
-			if l > -1 {
-				l--
-			}
-			if r < strLen {
-				r++
-			}
+		if r-l > tail-head {
+			head, tail = l, r
 		}
-
-		if len(tmp) > 0 && len(tmp) > len(res) {
-			res = tmp
-		}
+		l = (l+r)/2 + 1
+		r = l
 	}
 
-	return res
+	return s[head : tail+1]
 }
