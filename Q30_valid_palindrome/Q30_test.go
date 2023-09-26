@@ -24,7 +24,7 @@ func Test2(t *testing.T) {
 
 	expected := false
 
-	if reflect.DeepEqual(expected, isPalindrome(str)) {
+	if reflect.DeepEqual(expected, isPalindrome2(str)) {
 		t.Log("sucess")
 	} else {
 		t.Error("fail")
