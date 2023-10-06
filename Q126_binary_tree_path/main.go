@@ -14,22 +14,24 @@ func binaryTreePaths(root *TreeNode) []string {
 	}
 	path := strconv.Itoa(root.Val)
 	res := []string{}
-	res = append(res, traverslNode(root.Left, path, res)...)
-	res = append(res, traverslNode(root.Right, path, res)...)
+	traverslNode(root.Left, path, res)
+	traverslNode(root.Right, path, res)
 
 	return res
 }
 
-func traverslNode(root *TreeNode, path string, res []string) []string {
-	if root.Left == nil && root.Right == nil {
-		res = append(res, path)
-		return res
-	}
+func traverslNode(root *TreeNode, path string, res []string) {
 	path = path + "->" + strconv.Itoa(root.Val)
 
-	if root.Left != nil {
-		return traverslNode(root.Left, path, res)
+	if root.Left == nil && root.Right == nil {
+		res = append(res, path)
+		return
 	}
 
-	return traverslNode(root.Right, path, res)
+	if root.Left != nil {
+		traverslNode(root.Left, path, res)
+	}
+	if root.Right != nil {
+		traverslNode(root.Right, path, res)
+	}
 }
