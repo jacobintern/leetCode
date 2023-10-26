@@ -6,13 +6,21 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-var m map[int]map[int]int
+type content struct {
+	value int
+	count int
+}
+
+var m map[int]*content
 
 func averageOfLevels(root *TreeNode) []float64 {
 	res := []float64{}
-	m = make(map[int]map[int]int)
-
+	m = make(map[int]*content)
 	avg(root, 0)
+
+	for i := 1; i <= len(m); i++ {
+		res = append(res, float64(m[i].value)/float64(m[i].count))
+	}
 	return res
 }
 
@@ -22,7 +30,12 @@ func avg(root *TreeNode, level int) {
 	}
 
 	level = level + 1
-	m[level] = root.Val
+	if v, exist := m[level]; exist {
+		v.value += root.Val
+		v.count += 1
+	} else {
+		m[level] = &content{value: root.Val, count: 1}
+	}
 
 	avg(root.Left, level)
 	avg(root.Right, level)
