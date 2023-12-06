@@ -8,18 +8,20 @@ type ListNode struct {
 }
 
 func GetIntersectionNode(headA, headB *ListNode) *ListNode {
-	if headA != nil {
-		fmt.Println("A Node:", headA.Val)
-	}
-	if headB != nil {
-		fmt.Println("B Node:", headB.Val)
-	}
-
 	if headA == nil && headB == nil {
 		return nil
 	}
 
-	GetIntersectionNode(headA.Next, headB.Next)
+	if headA.Next != nil && headB.Next != nil {
+		GetIntersectionNode(headA.Next, headB.Next)
+	} else if headA.Next == nil && headB.Next != nil {
+		GetIntersectionNode(headA, headB.Next)
+	} else if headA.Next != nil && headB.Next == nil {
+		GetIntersectionNode(headA.Next, headB)
+	}
+
+	fmt.Println("A Node:", headA.Val)
+	fmt.Println("B Node:", headB.Val)
 
 	return nil
 }

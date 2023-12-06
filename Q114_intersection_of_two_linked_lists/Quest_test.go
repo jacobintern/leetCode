@@ -6,18 +6,29 @@ import (
 )
 
 type parameters struct {
-	headA ListNode
-	headB ListNode
+	headA *ListNode
+	headB *ListNode
 }
 
 func Test1(t *testing.T) {
 
-	params := parameters{headA: ListNode{Val: 4, Next: &ListNode{Val: 1, Next: &ListNode{Val: 8, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5, Next: &ListNode{}}}}}},
-		headB: ListNode{Val: 5, Next: &ListNode{Val: 6, Next: &ListNode{Val: 1, Next: &ListNode{Val: 8, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5, Next: &ListNode{}}}}}}}}
+	params := parameters{headA: &ListNode{Val: 4,
+		Next: &ListNode{Val: 1,
+			Next: &ListNode{Val: 8,
+				Next: &ListNode{Val: 4,
+					Next: &ListNode{Val: 5}}}}},
+		headB: &ListNode{Val: 5,
+			Next: &ListNode{Val: 6,
+				Next: &ListNode{Val: 1,
+					Next: &ListNode{Val: 8,
+						Next: &ListNode{Val: 4,
+							Next: &ListNode{Val: 5}}}}}}}
 
-	expected := 0
+	expected := &ListNode{Val: 8,
+		Next: &ListNode{Val: 4,
+			Next: &ListNode{Val: 5}}}
 
-	if testResult := GetIntersectionNode(&params.headA, &params.headB); reflect.DeepEqual(expected, testResult) {
+	if testResult := GetIntersectionNode(params.headA, params.headB); reflect.DeepEqual(expected, testResult) {
 		t.Log("sucess")
 	} else {
 		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
