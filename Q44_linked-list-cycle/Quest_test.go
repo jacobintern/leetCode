@@ -6,16 +6,16 @@ import (
 )
 
 type parameters struct {
-	head Listnode
+	head ListNode
 }
 
 func Test1(t *testing.T) {
 
 	params := parameters{
-		head: Listnode{Val: 3,
-			Next: &Listnode{Val: 2,
-				Next: &Listnode{Val: 0,
-					Next: &Listnode{Val: -4},
+		head: ListNode{Val: 3,
+			Next: &ListNode{Val: 2,
+				Next: &ListNode{Val: 0,
+					Next: &ListNode{Val: -4},
 				},
 			},
 		},

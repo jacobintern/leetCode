@@ -1,11 +1,11 @@
 package Q44
 
-type Listnode struct {
+type ListNode struct {
 	Val  int
-	Next *Listnode
+	Next *ListNode
 }
 
-func hasCycle(head *Listnode) bool {
+func hasCycle(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return false
 	}
