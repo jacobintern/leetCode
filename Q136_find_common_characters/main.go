@@ -7,22 +7,20 @@ func commonChars(words []string) []string {
 	res := []string{}
 
 	for _, str := range words {
-		for _, s := range str {
-			m[string(s)]++
-		}
-	}
-
-	for _, str := range words {
 		tmp := make(map[string]int)
 		for _, s := range str {
 			tmp[string(s)]++
 		}
 
-		for i, v := range tmp {
-			value, exists := m[i]
-			// 檢查最小
-			if exists && value > v {
-				m[i] = v
+		if str == words[0] {
+			m = tmp
+		} else {
+			// check min
+			for i, v := range tmp {
+				value, exists := m[i]
+				if exists && value > v {
+					m[i] = v
+				}
 			}
 		}
 	}
