@@ -19,10 +19,10 @@ func checkTree(root1 *TreeNode, root2 *TreeNode) bool {
 		return true
 	}
 	if (root1 == nil && root2 != nil) ||
-		(root1 != nil && root2 == nil) {
-		return false
-	} else if root1.Val != root2.Val {
+		(root1 != nil && root2 == nil) ||
+		root1.Val != root2.Val {
 		return false
 	}
+
 	return checkTree(root1.Left, root2.Right) && checkTree(root1.Right, root2.Left)
 }
