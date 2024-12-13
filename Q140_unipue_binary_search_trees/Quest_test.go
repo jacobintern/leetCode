@@ -34,3 +34,16 @@ func Test2(t *testing.T) {
 		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
 	}
 }
+
+func Test3(t *testing.T) {
+
+	params := parameters{num: 4}
+
+	expected := 14
+
+	if testResult := numTrees(params.num); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
