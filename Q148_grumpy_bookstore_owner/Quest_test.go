@@ -112,3 +112,20 @@ func Test6(t *testing.T) {
 		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
 	}
 }
+
+func Test7(t *testing.T) {
+
+	params := parameters{
+		customers: []int{6, 10, 2, 1, 7, 9},
+		grumpy:    []int{1, 0, 0, 0, 0, 1},
+		minutes:   3,
+	}
+
+	expected := 29
+
+	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
+		t.Log("sucess")
+	} else {
+		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+	}
+}
