@@ -18,7 +18,7 @@ func Test1(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, strStr(params.str, params.needle)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -32,7 +32,7 @@ func Test2(t *testing.T) {
 	expected := -1
 
 	if reflect.DeepEqual(expected, strStr(params.str, params.needle)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -46,7 +46,7 @@ func Test3(t *testing.T) {
 	expected := 0
 
 	if reflect.DeepEqual(expected, strStr(params.str, params.needle)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -60,7 +60,7 @@ func Test4(t *testing.T) {
 	expected := 0
 
 	if reflect.DeepEqual(expected, strStr(params.str, params.needle)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

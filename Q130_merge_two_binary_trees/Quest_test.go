@@ -31,9 +31,9 @@ func Test1(t *testing.T) {
 			Right: &TreeNode{Val: 7}}}
 
 	if testResult := mergeTrees(params.root1, params.root2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -48,8 +48,8 @@ func Test2(t *testing.T) {
 		Left: &TreeNode{Val: 2}}
 
 	if testResult := mergeTrees(params.root1, params.root2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

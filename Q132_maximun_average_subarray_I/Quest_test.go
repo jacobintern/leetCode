@@ -17,9 +17,9 @@ func Test1(t *testing.T) {
 	expected := 12.75
 
 	if testResult := findMaxAverage(params.arr, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -30,9 +30,9 @@ func Test2(t *testing.T) {
 	expected := 5.00
 
 	if testResult := findMaxAverage(params.arr, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -43,8 +43,8 @@ func Test3(t *testing.T) {
 	expected := 4.00
 
 	if testResult := findMaxAverage(params.arr, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

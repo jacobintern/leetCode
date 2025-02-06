@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := 6
 
 	if reflect.DeepEqual(expected, maxSubArray(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -29,7 +29,7 @@ func Test2(t *testing.T) {
 	expected := 1
 
 	if reflect.DeepEqual(expected, maxSubArray(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -42,7 +42,7 @@ func Test3(t *testing.T) {
 	expected := 23
 
 	if reflect.DeepEqual(expected, maxSubArray(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

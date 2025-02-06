@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := true
 
 	if reflect.DeepEqual(expected, isValid(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -29,7 +29,7 @@ func Test2(t *testing.T) {
 	expected := true
 
 	if reflect.DeepEqual(expected, isValid(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -42,7 +42,7 @@ func Test3(t *testing.T) {
 	expected := false
 
 	if reflect.DeepEqual(expected, isValid(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -55,7 +55,7 @@ func Test4(t *testing.T) {
 	expected := false
 
 	if reflect.DeepEqual(expected, isValid(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -68,7 +68,7 @@ func Test5(t *testing.T) {
 	expected := true
 
 	if reflect.DeepEqual(expected, isValid(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -81,7 +81,7 @@ func Test6(t *testing.T) {
 	expected := true
 
 	if reflect.DeepEqual(expected, isValid(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

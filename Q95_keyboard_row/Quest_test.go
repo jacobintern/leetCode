@@ -16,9 +16,9 @@ func Test1(t *testing.T) {
 	expected := []string{"Alaska", "Dad"}
 
 	if testResult := findWords(params.strArr); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -29,9 +29,9 @@ func Test2(t *testing.T) {
 	expected := []string{}
 
 	if testResult := findWords(params.strArr); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -42,8 +42,8 @@ func Test3(t *testing.T) {
 	expected := []string{"adsdf", "sfd"}
 
 	if testResult := findWords(params.strArr); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

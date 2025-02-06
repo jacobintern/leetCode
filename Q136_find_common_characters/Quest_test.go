@@ -16,9 +16,9 @@ func Test1(t *testing.T) {
 	expected := []string{"e", "l", "l"}
 
 	if testResult := commonChars(params.words); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -29,9 +29,9 @@ func Test2(t *testing.T) {
 	expected := []string{"c", "o"}
 
 	if testResult := commonChars(params.words); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -42,8 +42,8 @@ func Test3(t *testing.T) {
 	expected := []string{"b", "d"}
 
 	if testResult := commonChars(params.words); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

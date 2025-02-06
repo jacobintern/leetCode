@@ -25,7 +25,7 @@ func Test1(t *testing.T) {
 	}
 
 	if reflect.DeepEqual(expected, sortedArrayToBST(params.arr)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -41,7 +41,7 @@ func Test2(t *testing.T) {
 	}
 
 	if reflect.DeepEqual(expected, sortedArrayToBST(params.arr)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

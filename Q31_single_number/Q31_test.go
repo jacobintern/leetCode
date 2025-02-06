@@ -18,9 +18,9 @@ func Test1(t *testing.T) {
 	expected := 11
 
 	if testResult := singleNumber(params.nums); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -33,7 +33,7 @@ func Test2(t *testing.T) {
 	expected := 4
 
 	if reflect.DeepEqual(expected, singleNumber(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -48,7 +48,7 @@ func Test3(t *testing.T) {
 	expected := 1
 
 	if reflect.DeepEqual(expected, singleNumber(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -63,8 +63,8 @@ func Test4(t *testing.T) {
 	expected := -3
 
 	if testResult := singleNumber(params.nums); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

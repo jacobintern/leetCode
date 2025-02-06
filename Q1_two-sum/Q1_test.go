@@ -19,7 +19,7 @@ func Test1(t *testing.T) {
 	expected = append(expected, 0, 2)
 
 	if reflect.DeepEqual(expected, twoSum(params.nums, params.target)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -34,7 +34,7 @@ func Test2(t *testing.T) {
 	expected = append(expected, 1, 2)
 
 	if reflect.DeepEqual(expected, twoSum(params.nums, params.target)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

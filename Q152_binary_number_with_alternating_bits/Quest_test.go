@@ -1,4 +1,4 @@
-package Q113
+package Q152
 
 import (
 	"reflect"
@@ -6,16 +6,16 @@ import (
 )
 
 type parameters struct {
-	arr []int
+	num int
 }
 
 func Test1(t *testing.T) {
 
-	params := parameters{arr: []int{1, 3, 2, 2, 5, 2, 3, 7}}
+	params := parameters{num: 5}
 
-	expected := 5
+	expected := true
 
-	if testResult := findLHS(params.arr); reflect.DeepEqual(expected, testResult) {
+	if testResult := hasAlternatingBits(params.num); reflect.DeepEqual(expected, testResult) {
 		t.Log("success")
 	} else {
 		t.Error("fail coz expected is ", expected, " and test result is ", testResult)

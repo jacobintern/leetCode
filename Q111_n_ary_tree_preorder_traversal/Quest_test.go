@@ -25,9 +25,9 @@ func Test1(t *testing.T) {
 	expected := []int{1, 3, 5, 6, 2, 4}
 
 	if testResult := preorder(&params.root); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -59,8 +59,8 @@ func Test2(t *testing.T) {
 	expected := []int{1, 2, 3, 6, 7, 11, 14, 4, 8, 12, 5, 9, 13, 10}
 
 	if testResult := preorder(&params.root); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := true
 
 	if reflect.DeepEqual(expected, IsPalindrome(params.num)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -29,7 +29,7 @@ func Test2(t *testing.T) {
 	expected := false
 
 	if reflect.DeepEqual(expected, IsPalindrome(params.num)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

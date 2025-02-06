@@ -18,7 +18,7 @@ func Test1(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, removeElement(params.nums, params.num)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -32,7 +32,7 @@ func Test2(t *testing.T) {
 	expected := 5
 
 	if reflect.DeepEqual(expected, removeElement(params.nums, params.num)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

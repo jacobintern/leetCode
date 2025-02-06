@@ -18,9 +18,9 @@ func Test1(t *testing.T) {
 	expected := []int{5, 6}
 
 	if testResult := findDisappearedNumbers(params.nums); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -33,8 +33,8 @@ func Test2(t *testing.T) {
 	expected := []int{2}
 
 	if testResult := findDisappearedNumbers(params.nums); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

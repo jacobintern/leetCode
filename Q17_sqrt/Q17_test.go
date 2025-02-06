@@ -17,7 +17,7 @@ func Test1(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, mySqrt(params.num)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -30,7 +30,7 @@ func Test2(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, mySqrt(params.num)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

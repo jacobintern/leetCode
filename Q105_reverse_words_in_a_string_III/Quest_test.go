@@ -16,9 +16,9 @@ func Test1(t *testing.T) {
 	expected := "s'teL ekat edoCteeL tsetnoc"
 
 	if testResult := reverseWords(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -29,8 +29,8 @@ func Test2(t *testing.T) {
 	expected := "doG gniD"
 
 	if testResult := reverseWords(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

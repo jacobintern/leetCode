@@ -28,9 +28,9 @@ func Test1(t *testing.T) {
 			Right: &TreeNode{Val: 1}}}
 
 	if testResult := invertTree(params.root); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -45,9 +45,9 @@ func Test2(t *testing.T) {
 		Right: &TreeNode{Val: 1}}
 
 	if testResult := invertTree(params.root); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -58,9 +58,9 @@ func Test3(t *testing.T) {
 	expected := &TreeNode{}
 
 	if testResult := invertTree(params.root); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -73,8 +73,8 @@ func Test4(t *testing.T) {
 		Right: &TreeNode{Val: 2}}
 
 	if testResult := invertTree(params.root); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

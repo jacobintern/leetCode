@@ -17,7 +17,7 @@ func Test1(t *testing.T) {
 	// nums = [1,2]
 
 	if reflect.DeepEqual(expected, removeDuplicates2(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -31,7 +31,7 @@ func Test2(t *testing.T) {
 	// nums = [0,1,2,3,4]
 
 	if reflect.DeepEqual(expected, removeDuplicates2(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

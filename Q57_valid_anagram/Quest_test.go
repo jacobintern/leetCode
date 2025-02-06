@@ -17,9 +17,9 @@ func Test1(t *testing.T) {
 	expected := true
 
 	if testResult := isAnagram(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -30,8 +30,8 @@ func Test2(t *testing.T) {
 	expected := false
 
 	if testResult := isAnagram(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

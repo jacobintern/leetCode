@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := []int{1, 4, 6, 4, 1}
 
 	if reflect.DeepEqual(expected, getRow(params.rowIndex)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -29,7 +29,7 @@ func Test2(t *testing.T) {
 	expected := []int{1}
 
 	if reflect.DeepEqual(expected, getRow(params.rowIndex)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

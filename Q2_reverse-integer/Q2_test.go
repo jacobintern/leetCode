@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := -312
 
 	if reflect.DeepEqual(expected, reverse(params.num)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

@@ -17,9 +17,9 @@ func Test1(t *testing.T) {
 	expected := "5F3Z-2E9W-SOFL-GKOH"
 
 	if testResult := licenseKeyFormatting(params.str, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -30,9 +30,9 @@ func Test2(t *testing.T) {
 	expected := "2-5G-3J"
 
 	if testResult := licenseKeyFormatting(params.str, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -43,9 +43,9 @@ func Test3(t *testing.T) {
 	expected := "A-A-A-A"
 
 	if testResult := licenseKeyFormatting(params.str, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -56,9 +56,9 @@ func Test4(t *testing.T) {
 	expected := "A"
 
 	if testResult := licenseKeyFormatting(params.str, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -69,8 +69,8 @@ func Test5(t *testing.T) {
 	expected := "AA-AA"
 
 	if testResult := licenseKeyFormatting(params.str, params.k); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

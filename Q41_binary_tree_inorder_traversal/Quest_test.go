@@ -24,9 +24,9 @@ func Test1(t *testing.T) {
 	expected := []int{1, 3, 2}
 
 	if testResult := inorderTraversal(params.tree); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -39,9 +39,9 @@ func Test2(t *testing.T) {
 	expected := []int{}
 
 	if testResult := inorderTraversal(params.tree); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -54,9 +54,9 @@ func Test3(t *testing.T) {
 	expected := []int{1}
 
 	if testResult := inorderTraversal(params.tree); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -72,9 +72,9 @@ func Test4(t *testing.T) {
 	expected := []int{2, 1}
 
 	if testResult := inorderTraversal(params.tree); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -90,9 +90,9 @@ func Test5(t *testing.T) {
 	expected := []int{1, 2}
 
 	if testResult := inorderTraversal(params.tree); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -112,8 +112,8 @@ func Test6(t *testing.T) {
 	expected := []int{1, 2, 3, 4, 5, 6, 7}
 
 	if testResult := inorderTraversal(params.tree); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

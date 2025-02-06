@@ -20,9 +20,9 @@ func Test1(t *testing.T) {
 	expected := &ListNode{Val: 7, Next: &ListNode{Val: 0, Next: &ListNode{Val: 8}}}
 
 	if testResult := addTwoNumbers(&params.node1, &params.node2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -36,9 +36,9 @@ func Test2(t *testing.T) {
 	expected := &ListNode{Val: 0}
 
 	if testResult := addTwoNumbers(&params.node1, &params.node2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -52,8 +52,8 @@ func Test3(t *testing.T) {
 	expected := &ListNode{Val: 0}
 
 	if testResult := addTwoNumbers(&params.node1, &params.node2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

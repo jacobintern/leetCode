@@ -22,9 +22,9 @@ func Test1(t *testing.T) {
 	expected := 16
 
 	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -39,9 +39,9 @@ func Test2(t *testing.T) {
 	expected := 1
 
 	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -56,9 +56,9 @@ func Test3(t *testing.T) {
 	expected := 13
 
 	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -73,9 +73,9 @@ func Test4(t *testing.T) {
 	expected := 24
 
 	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -90,9 +90,9 @@ func Test5(t *testing.T) {
 	expected := 29
 
 	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -107,9 +107,9 @@ func Test6(t *testing.T) {
 	expected := 23
 
 	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -124,8 +124,8 @@ func Test7(t *testing.T) {
 	expected := 29
 
 	if testResult := maxSatisfied(params.customers, params.grumpy, params.minutes); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("failed coz expected is ", expected, " and test result is ", testResult)
 	}
 }

@@ -16,9 +16,9 @@ func Test1(t *testing.T) {
 	expected := &ListNode{Val: 2, Next: &ListNode{Val: 1, Next: &ListNode{Val: 4, Next: &ListNode{Val: 3}}}}
 
 	if testResult := swapPairs(params.head); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -29,9 +29,9 @@ func Test2(t *testing.T) {
 	expected := &ListNode{}
 
 	if testResult := swapPairs(params.head); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -42,9 +42,9 @@ func Test3(t *testing.T) {
 	expected := &ListNode{Val: 1}
 
 	if testResult := swapPairs(params.head); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -55,8 +55,8 @@ func Test4(t *testing.T) {
 	expected := &ListNode{Val: 2, Next: &ListNode{Val: 1, Next: &ListNode{Val: 3}}}
 
 	if testResult := swapPairs(params.head); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

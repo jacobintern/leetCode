@@ -17,9 +17,9 @@ func Test1(t *testing.T) {
 	expected := 1
 
 	if testResult := findContentChildren(params.nums1, params.nums2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -30,8 +30,8 @@ func Test2(t *testing.T) {
 	expected := 2
 
 	if testResult := findContentChildren(params.nums1, params.nums2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

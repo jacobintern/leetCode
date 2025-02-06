@@ -17,7 +17,7 @@ func Test1(t *testing.T) {
 	expected := 5
 
 	if reflect.DeepEqual(expected, lengthOfLastWord(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -30,7 +30,7 @@ func Test2(t *testing.T) {
 	expected := 0
 
 	if reflect.DeepEqual(expected, lengthOfLastWord(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -43,7 +43,7 @@ func Test3(t *testing.T) {
 	expected := 1
 
 	if reflect.DeepEqual(expected, lengthOfLastWord(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

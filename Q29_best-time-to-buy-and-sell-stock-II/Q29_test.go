@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := 7
 
 	if reflect.DeepEqual(expected, maxProfit(params.prices)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -29,7 +29,7 @@ func Test2(t *testing.T) {
 	expected := 4
 
 	if reflect.DeepEqual(expected, maxProfit(params.prices)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -42,7 +42,7 @@ func Test3(t *testing.T) {
 	expected := 0
 
 	if reflect.DeepEqual(expected, maxProfit(params.prices)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

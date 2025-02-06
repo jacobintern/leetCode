@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := 1994
 
 	if reflect.DeepEqual(expected, romanToInt(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -29,7 +29,7 @@ func Test2(t *testing.T) {
 	expected := 3
 
 	if reflect.DeepEqual(expected, romanToInt(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -42,7 +42,7 @@ func Test3(t *testing.T) {
 	expected := 4
 
 	if reflect.DeepEqual(expected, romanToInt(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -55,7 +55,7 @@ func Test4(t *testing.T) {
 	expected := 9
 
 	if reflect.DeepEqual(expected, romanToInt(params.str)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

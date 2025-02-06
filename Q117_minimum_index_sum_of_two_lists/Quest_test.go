@@ -18,9 +18,9 @@ func Test1(t *testing.T) {
 	expected := []string{"Shogun"}
 
 	if testResult := findRestaurant(params.list1, params.list2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -32,9 +32,9 @@ func Test2(t *testing.T) {
 	expected := []string{"Shogun"}
 
 	if testResult := findRestaurant(params.list1, params.list2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -46,9 +46,9 @@ func Test3(t *testing.T) {
 	expected := []string{"sad", "happy"}
 
 	if testResult := findRestaurant(params.list1, params.list2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -60,8 +60,8 @@ func Test4(t *testing.T) {
 	expected := []string{"KFC"}
 
 	if testResult := findRestaurant2(params.list1, params.list2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

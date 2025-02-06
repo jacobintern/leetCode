@@ -20,7 +20,7 @@ func Test1(t *testing.T) {
 	expected := &ListNode{Val: 1, Next: &ListNode{Val: 2}}
 
 	if reflect.DeepEqual(expected, deleteDuplicates(&params.head)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -33,7 +33,7 @@ func Test2(t *testing.T) {
 	expected := &ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3}}}
 
 	if reflect.DeepEqual(expected, deleteDuplicates(&params.head)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

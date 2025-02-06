@@ -16,9 +16,9 @@ func Test1(t *testing.T) {
 	expected := [][]int{{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}
 
 	if testResult := imageSmoother(params.arrList); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -29,9 +29,9 @@ func Test2(t *testing.T) {
 	expected := [][]int{{137, 141, 137}, {141, 138, 141}, {137, 141, 137}}
 
 	if testResult := imageSmoother(params.arrList); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -42,8 +42,8 @@ func Test3(t *testing.T) {
 	expected := [][]int{{4, 4, 5}, {5, 6, 6}, {8, 9, 9}, {11, 12, 12}, {13, 13, 14}}
 
 	if testResult := imageSmoother(params.arrList); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

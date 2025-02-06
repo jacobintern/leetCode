@@ -12,15 +12,15 @@ type parameters struct {
 func Test1(t *testing.T) {
 	params := parameters{
 		tree: &TreeNode{Val: 3,
-			Left:  &TreeNode{Val: 9},
-			Right: &TreeNode{Val: 20, 
-				Left: &TreeNode{Val: 15}, 
+			Left: &TreeNode{Val: 9},
+			Right: &TreeNode{Val: 20,
+				Left:  &TreeNode{Val: 15},
 				Right: &TreeNode{Val: 7}}},
 	}
 	expected := 3
 
 	if reflect.DeepEqual(expected, maxDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -35,7 +35,7 @@ func Test2(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, maxDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -47,7 +47,7 @@ func Test3(t *testing.T) {
 	expected := 0
 
 	if reflect.DeepEqual(expected, maxDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -59,7 +59,7 @@ func Test4(t *testing.T) {
 	expected := 1
 
 	if reflect.DeepEqual(expected, maxDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

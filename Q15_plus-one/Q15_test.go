@@ -16,7 +16,7 @@ func Test1(t *testing.T) {
 	expected := []int{1, 2, 4}
 
 	if reflect.DeepEqual(expected, plusOne(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -29,7 +29,7 @@ func Test2(t *testing.T) {
 	expected := []int{4, 3, 2, 2}
 
 	if reflect.DeepEqual(expected, plusOne(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -42,7 +42,7 @@ func Test3(t *testing.T) {
 	expected := []int{1}
 
 	if reflect.DeepEqual(expected, plusOne(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -55,7 +55,7 @@ func Test4(t *testing.T) {
 	expected := []int{1, 0, 0}
 
 	if reflect.DeepEqual(expected, plusOne(params.nums)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

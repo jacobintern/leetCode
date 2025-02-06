@@ -17,9 +17,9 @@ func Test1(t *testing.T) {
 	expected := true
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -30,9 +30,9 @@ func Test2(t *testing.T) {
 	expected := false
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -43,9 +43,9 @@ func Test3(t *testing.T) {
 	expected := true
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -56,9 +56,9 @@ func Test4(t *testing.T) {
 	expected := false
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -69,9 +69,9 @@ func Test5(t *testing.T) {
 	expected := false
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -82,9 +82,9 @@ func Test6(t *testing.T) {
 	expected := false
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -95,9 +95,9 @@ func Test7(t *testing.T) {
 	expected := true
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -108,8 +108,8 @@ func Test8(t *testing.T) {
 	expected := true
 
 	if testResult := isIsomorphic(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

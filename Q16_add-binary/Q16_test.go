@@ -18,7 +18,7 @@ func Test1(t *testing.T) {
 	expected := "100"
 
 	if reflect.DeepEqual(expected, addBinary(params.a, params.b)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -32,7 +32,7 @@ func Test2(t *testing.T) {
 	expected := "10101"
 
 	if reflect.DeepEqual(expected, addBinary(params.a, params.b)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -46,7 +46,7 @@ func Test3(t *testing.T) {
 	expected := "110"
 
 	if reflect.DeepEqual(expected, addBinary(params.a, params.b)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -60,7 +60,7 @@ func Test4(t *testing.T) {
 	expected := "1000"
 
 	if reflect.DeepEqual(expected, addBinary(params.a, params.b)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

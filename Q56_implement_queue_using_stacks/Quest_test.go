@@ -23,32 +23,32 @@ func Test1(t *testing.T) {
 		case "MyQueue":
 			expected := []int{}
 			if testResult := obj.stack; reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		case "push":
 			obj.Push(params.pushArr[i])
 		case "peek":
 			expected := 1
 			if testResult := obj.Peek(); reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		case "pop":
 			expected := 1
 			if testResult := obj.Pop(); reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		case "empty":
 			expected := false
 			if testResult := obj.Empty(); reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		}
 	}
@@ -67,32 +67,32 @@ func Test2(t *testing.T) {
 		case "MyQueue":
 			expected := []int{}
 			if testResult := obj.stack; reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		case "push":
 			obj.Push(params.pushArr[i])
 		case "peek":
 			expected := 1
 			if testResult := obj.Peek(); reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		case "pop":
 			expected := 1
 			if testResult := obj.Pop(); reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		case "empty":
 			expected := false
 			if testResult := obj.Empty(); reflect.DeepEqual(expected, testResult) {
-				t.Log("sucess")
+				t.Log("success")
 			} else {
-				t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+				t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 			}
 		}
 	}

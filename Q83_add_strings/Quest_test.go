@@ -17,9 +17,9 @@ func Test1(t *testing.T) {
 	expected := "134"
 
 	if testResult := addStrings(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -30,9 +30,9 @@ func Test2(t *testing.T) {
 	expected := "533"
 
 	if testResult := addStrings(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -43,9 +43,9 @@ func Test3(t *testing.T) {
 	expected := "0"
 
 	if testResult := addStrings(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -56,9 +56,9 @@ func Test4(t *testing.T) {
 	expected := "18"
 
 	if testResult := addStrings(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -69,9 +69,9 @@ func Test5(t *testing.T) {
 	expected := "1111111110"
 
 	if testResult := addStrings(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -82,8 +82,8 @@ func Test6(t *testing.T) {
 	expected := "507"
 
 	if testResult := addStrings(params.str1, params.str2); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

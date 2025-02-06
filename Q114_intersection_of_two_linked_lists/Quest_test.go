@@ -29,8 +29,8 @@ func Test1(t *testing.T) {
 			Next: &ListNode{Val: 5}}}
 
 	if testResult := GetIntersectionNode(params.headA, params.headB); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

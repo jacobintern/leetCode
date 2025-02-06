@@ -16,9 +16,9 @@ func Test1(t *testing.T) {
 	expected := []string{"0->2", "4->5", "7"}
 
 	if testResult := summaryRanges(params.arr); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -29,8 +29,8 @@ func Test2(t *testing.T) {
 	expected := []string{"0", "2->4", "6", "8->9"}
 
 	if testResult := summaryRanges(params.arr); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }

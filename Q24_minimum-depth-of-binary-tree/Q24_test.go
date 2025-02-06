@@ -22,7 +22,7 @@ func Test1(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, minDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -47,7 +47,7 @@ func Test2(t *testing.T) {
 	expected := 5
 
 	if reflect.DeepEqual(expected, minDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -63,7 +63,7 @@ func Test3(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, minDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -81,7 +81,7 @@ func Test4(t *testing.T) {
 	expected := 2
 
 	if reflect.DeepEqual(expected, minDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}
@@ -102,7 +102,7 @@ func Test5(t *testing.T) {
 	expected := 3
 
 	if reflect.DeepEqual(expected, minDepth(params.tree)) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
 		t.Error("fail")
 	}

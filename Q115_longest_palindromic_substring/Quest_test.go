@@ -16,9 +16,9 @@ func Test1(t *testing.T) {
 	expected := "bab"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -29,9 +29,9 @@ func Test2(t *testing.T) {
 	expected := "bb"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -42,9 +42,9 @@ func Test3(t *testing.T) {
 	expected := "ccc"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -55,9 +55,9 @@ func Test4(t *testing.T) {
 	expected := "xaabacxcabaax"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -68,9 +68,9 @@ func Test5(t *testing.T) {
 	expected := "anana"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -81,9 +81,9 @@ func Test6(t *testing.T) {
 	expected := "dbbd"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -94,9 +94,9 @@ func Test7(t *testing.T) {
 	expected := "bcb"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -107,9 +107,9 @@ func Test8(t *testing.T) {
 	expected := "aaabaaa"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -120,9 +120,9 @@ func Test9(t *testing.T) {
 	expected := "aaaaa"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
 
@@ -133,8 +133,8 @@ func Test10(t *testing.T) {
 	expected := "ababababa"
 
 	if testResult := longestPalindrome(params.str); reflect.DeepEqual(expected, testResult) {
-		t.Log("sucess")
+		t.Log("success")
 	} else {
-		t.Error("fail coz expectec is ", expected, " and test result is ", testResult)
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
