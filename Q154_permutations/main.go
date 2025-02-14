@@ -16,10 +16,10 @@ func save(cur, left []int, res *[][]int) {
 	for i, v := range left {
 		cur := append(cur, v)
 		var next []int
-		// left
-		next = append(next, left[:i]...)
-		// right
-		next = append(next, left[i+1:]...)
+		// exclude me
+		next = append(append(next, left[:i]...), left[i+1:]...)
+		// // right
+		// next = append(next, left[i+1:]...)
 
 		save(cur, next, res)
 	}
