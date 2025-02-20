@@ -5,30 +5,30 @@ import (
 )
 
 func threeSum(nums []int) [][]int {
-	r, n := [][]int{}, len(nums)
+	res, n := [][]int{}, len(nums)
 	sort.Ints(nums)
 	for i := 0; i < n-2; i++ {
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
-		low, high, sum := i+1, n-1, 0-nums[i]
-		for low < high {
-			if nums[low]+nums[high] == sum {
-				r = append(r, []int{nums[i], nums[low], nums[high]})
-				for low < high && nums[low] == nums[low+1] {
-					low++
+		l, r, cur := i+1, n-1, 0-nums[i]
+		for l < r {
+			if nums[l]+nums[r] == cur {
+				res = append(res, []int{nums[i], nums[l], nums[r]})
+				for l < r && nums[l] == nums[l+1] {
+					l++
 				}
-				for low < high && nums[high] == nums[high-1] {
-					high--
+				for l < r && nums[r] == nums[r-1] {
+					r--
 				}
-				low++
-				high--
-			} else if nums[low]+nums[high] > sum {
-				high--
+				l++
+				r--
+			} else if nums[l]+nums[r] > cur {
+				r--
 			} else {
-				low++
+				l++
 			}
 		}
 	}
-	return r
+	return res
 }
