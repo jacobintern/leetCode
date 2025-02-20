@@ -87,3 +87,24 @@ func Test3(t *testing.T) {
 		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
+
+func Test4(t *testing.T) {
+
+	params := parameters{
+		head: &ListNode{
+			Val: 1,
+			Next: &ListNode{
+				Val: 2,
+			},
+		},
+		n: 2,
+	}
+
+	expected := &ListNode{Val: 2}
+
+	if testResult := removeNthFromEnd(params.head, params.n); reflect.DeepEqual(expected, testResult) {
+		t.Log("success")
+	} else {
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
+	}
+}
