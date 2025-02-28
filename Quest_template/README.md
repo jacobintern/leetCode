@@ -19,3 +19,4 @@ Quest descript
 
 * $something descript$
 * something descript.
+* ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹
