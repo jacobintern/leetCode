@@ -32,4 +32,4 @@ func combination(n, r int32) int32 {
 	return result
 }
 
-const mod = 1000000000
+const mod = 1000000007
