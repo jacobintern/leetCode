@@ -37,9 +37,9 @@ func Test2(t *testing.T) {
 
 func Test3(t *testing.T) {
 
-	params := parameters{str: "longest word!!"}
+	params := parameters{str: "I love dogs"}
 
-	expected := "longest"
+	expected := "love"
 
 	if testResult := longestWord(params.str); reflect.DeepEqual(expected, testResult) {
 		t.Log("success")
