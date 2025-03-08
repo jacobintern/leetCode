@@ -1,4 +1,4 @@
-# Quest Name(Level)
+# Kth Largest Element in a Stream(Easy)
 
 ## Beginners Guide
 
