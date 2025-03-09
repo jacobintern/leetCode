@@ -1,22 +1,27 @@
-# Quest Name(Level)
+# To Lower Case(Easy)
 
 ## Beginners Guide
 
-Quest descript
+Given a string `s`, return the string after replacing every uppercase letter with the same lowercase letter.
 
 ### Example 1
 
->
+>Input: s = "Hello"
+Output: "hello"
+
 ### Example 2
 
->
+>Input: s = "here"
+Output: "here"
+
 ### Example 3
 
->
+>Input: s = "LOVELY"
+Output: "lovely"
+
 ---
 
 ### Rules
 
-* $something descript$
-* something descript.
-* ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹
+* `1 <= s.length <= 100`
+* `s` consists of printable ASCII characters.

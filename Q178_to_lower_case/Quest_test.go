@@ -21,3 +21,29 @@ func Test1(t *testing.T) {
 		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
+
+func Test2(t *testing.T) {
+
+	params := parameters{str: "here"}
+
+	expected := "here"
+
+	if testResult := toLowerCase(params.str); reflect.DeepEqual(expected, testResult) {
+		t.Log("success")
+	} else {
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
+	}
+}
+
+func Test3(t *testing.T) {
+
+	params := parameters{str: "LOVELY"}
+
+	expected := "lovely"
+
+	if testResult := toLowerCase(params.str); reflect.DeepEqual(expected, testResult) {
+		t.Log("success")
+	} else {
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
+	}
+}
