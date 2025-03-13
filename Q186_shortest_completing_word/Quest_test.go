@@ -1,4 +1,4 @@
-package Q
+package Q186
 
 import (
 	"reflect"
@@ -6,16 +6,36 @@ import (
 )
 
 type parameters struct {
-	str string
+	licensePlate string
+	words        []string
 }
 
 func Test1(t *testing.T) {
 
-	params := parameters{str: "abcabcbb"}
+	params := parameters{
+		licensePlate: "1s3 PSt",
+		words:        []string{"step", "steps", "stripe", "stepple"},
+	}
 
-	expected := 0
+	expected := "steps"
 
-	if testResult := Quest(params.str); reflect.DeepEqual(expected, testResult) {
+	if testResult := shortestCompletingWord(params.licensePlate, params.words); reflect.DeepEqual(expected, testResult) {
+		t.Log("success")
+	} else {
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
+	}
+}
+
+func Test2(t *testing.T) {
+
+	params := parameters{
+		licensePlate: "1s3 456",
+		words:        []string{"looks", "pest", "stew", "show"},
+	}
+
+	expected := "pest"
+
+	if testResult := shortestCompletingWord(params.licensePlate, params.words); reflect.DeepEqual(expected, testResult) {
 		t.Log("success")
 	} else {
 		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
