@@ -1,32 +1,26 @@
-# Degree of an Array(Easy)
+# Search in a Binary Search Tree(Easy)
 
 ## Beginners Guide
 
-Given a non-empty array of non-negative integers `nums`, the degree of this array is defined as the maximum frequency of any one of its elements.
+You are given the `root` of a binary search tree (BST) and an integer `val`.
 
-Your task is to find the smallest possible length of a (contiguous) subarray of `nums`, that has the same degree as `nums`.
+Find the node in the BST that the node's value equals `val` and return the subtree rooted with that node. If such a node does not exist, return `null`.
 
 ### Example 1
 
->Input: nums = [1,2,2,3,1]
-Output: 2
-Explanation:
-The input array has a degree of 2 because both elements 1 and 2 appear twice.
-Of the subarrays that have the same degree:
-[1, 2, 2, 3, 1], [1, 2, 2, 3], [2, 2, 3, 1], [1, 2, 2], [2, 2, 3], [2, 2]
-The shortest length is 2. So return 2.
+>Input: root = [4,2,7,1,3], val = 2
+Output: [2,1,3]
 
 ### Example 2
 
->Input: nums = [1,2,2,3,1,4,2]
-Output: 6
-Explanation: 
-The degree is 3 because the element 2 is repeated 3 times.
-So [2,2,3,1,4,2] is the shortest subarray, therefore returning 6.
+>Input: root = [4,2,7,1,3], val = 5
+Output: []
 
 ---
 
 ### Rules
 
-* `nums.length` will be between 1 and 50,000.
-* `nums[i]` will be an integer between 0 and 49,999.
+* The number of nodes in the tree is in the range `[1, 5000]`.
+* `1 <= Node.val <= 10⁷`
+* `root` is a binary search tree.
+* `1 <= val <= 10⁷`
