@@ -41,3 +41,19 @@ func Test2(t *testing.T) {
 		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
 	}
 }
+
+func Test3(t *testing.T) {
+
+	params := parameters{
+		s: "aaba",
+		c: 'b',
+	}
+
+	expected := []int{2, 1, 0, 1}
+
+	if testResult := shortestToChar(params.s, params.c); reflect.DeepEqual(expected, testResult) {
+		t.Log("success")
+	} else {
+		t.Error("fail coz expected is ", expected, " and test result is ", testResult)
+	}
+}

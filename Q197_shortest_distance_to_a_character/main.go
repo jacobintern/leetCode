@@ -1,18 +1,29 @@
 package Q197
 
 func shortestToChar(s string, c byte) []int {
-	indexs, j := allIndex(s, c), 0
-	res := make([]int, len(s))
+	indexs := allIndex(s, c)
+	n, l := len(s), len(indexs)-1
+	res := make([]int, n)
 
-	for i, v := range s {
-		if c == byte(v) {
-			res[i] = 0
-		}
-		if i > indexs[j] {
+	// 左
+	j := 0
+	for i := range s {
+		if i > indexs[j] && j < l {
 			j++
-			res[i] = indexs[j] - i
-		} else {
-			res[i] = indexs[j] - i
+		}
+
+		res[i] = absInt(indexs[j] - i)
+	}
+
+	// 右
+	j = l
+	for i := n - 1; i >= 0; i-- {
+		if i < indexs[j] && j > 0 {
+			j--
+		}
+
+		if tmp := absInt(i - indexs[j]); tmp < res[i] {
+			res[i] = tmp
 		}
 	}
 
@@ -27,4 +38,11 @@ func allIndex(s string, c byte) []int {
 		}
 	}
 	return result
+}
+
+func absInt(n int) int {
+	if n < 0 {
+		return -n
+	}
+	return n
 }
