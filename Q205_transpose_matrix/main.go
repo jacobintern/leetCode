@@ -8,8 +8,8 @@ func transpose(matrix [][]int) [][]int {
 		result[i] = make([]int, m)
 	}
 
-	for i := 0; i < m; i++ {
-		for j := 0; j < n; j++ {
+	for i := range m {
+		for j := range n {
 			result[j][i] = matrix[i][j] // 轉置
 		}
 	}
